@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8205872902570630413}
   - component: {fileID: 4667943559849340353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle Stamp Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
