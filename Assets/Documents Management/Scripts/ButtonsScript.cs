@@ -14,10 +14,10 @@ public class ButtonsScript : MonoBehaviour
 
     public bool Press(GameObject doc, Vector3 mousePos)
     {
-        bossu.transform.localScale = Vector3.one;
-        spaceStationA.transform.localScale = Vector3.one;
-        spaceStationB.transform.localScale = Vector3.one;
-        trash.transform.localScale = Vector3.one;
+        bossu.transform.localScale = Vector3.one / 2;
+        spaceStationA.transform.localScale = Vector3.one / 2;
+        spaceStationB.transform.localScale = Vector3.one / 2;
+        trash.transform.localScale = Vector3.one / 2;
 
         if (bossu.OverlapPoint(mousePos)) documents.Bossu();
         else if (spaceStationA.OverlapPoint(mousePos)) documents.SpaceStationA();
@@ -37,14 +37,14 @@ public class ButtonsScript : MonoBehaviour
 
     public void Highlight(Vector3 mousePos)
     {
-        bossu.transform.localScale = Vector3.one;
-        spaceStationA.transform.localScale = Vector3.one;
-        spaceStationB.transform.localScale = Vector3.one;
-        trash.transform.localScale = Vector3.one;
+        bossu.transform.localScale = Vector3.one / 2;
+        spaceStationA.transform.localScale = Vector3.one / 2;
+        spaceStationB.transform.localScale = Vector3.one / 2;
+        trash.transform.localScale = Vector3.one / 2;
 
-        if (bossu.OverlapPoint(mousePos)) bossu.transform.localScale = new Vector3(1.3f, 1.3f, 1);
-        else if (spaceStationA.OverlapPoint(mousePos)) spaceStationA.transform.localScale = new Vector3(1.3f, 1.3f, 1);
-        else if (spaceStationB.OverlapPoint(mousePos)) spaceStationB.transform.localScale = new Vector3(1.3f, 1.3f, 1);
-        else if (trash.OverlapPoint(mousePos)) trash.transform.localScale = new Vector3(1.3f, 1.3f, 1);
+        if (bossu.OverlapPoint(mousePos)) bossu.transform.localScale = new Vector3(0.7f, 0.7f, 1);
+        else if (spaceStationA.OverlapPoint(mousePos)) spaceStationA.transform.localScale = new Vector3(0.7f, 0.7f, 1);
+        else if (spaceStationB.OverlapPoint(mousePos)) spaceStationB.transform.localScale = new Vector3(0.7f, 0.7f, 1);
+        else if (trash.OverlapPoint(mousePos)) trash.transform.localScale = new Vector3(0.7f, 0.7f, 1);
     }
 }
