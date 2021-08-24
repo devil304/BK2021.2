@@ -70,7 +70,8 @@ public class DocumentHolder : MonoBehaviour
 
             if (dist < 0.3f && (
                 (area is BoxCollider2D && collider is BoxCollider2D) ||
-                (area is CircleCollider2D && collider is CircleCollider2D)))
+                (area is CircleCollider2D && collider is CircleCollider2D) ||
+                (area is PolygonCollider2D && collider is PolygonCollider2D)))
             {
                 Destroy(area);
             }
