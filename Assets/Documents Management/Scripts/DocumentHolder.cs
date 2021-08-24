@@ -89,12 +89,12 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Debug.Log("Bad marks"));
+                RemoveUpper(() => Frustration.Value += 0.1f);
             }
         }
         else
         {
-            RemoveUpper(() => Debug.Log("Wrong"));
+            RemoveUpper(() => Frustration.Value += 0.1f);
         }
     }
 
@@ -110,12 +110,12 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Debug.Log("Bad marks"));
+                RemoveUpper(() => Frustration.Value += 0.1f);
             }
         }
         else
         {
-            RemoveUpper(() => Debug.Log("Wrong"));
+            RemoveUpper(() => Frustration.Value += 0.1f);
         }
     }
 
@@ -131,12 +131,12 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Debug.Log("Bad marks"));
+                RemoveUpper(() => Frustration.Value += 0.1f);
             }
         }
         else
         {
-            RemoveUpper(() => Debug.Log("Wrong"));
+            RemoveUpper(() => Frustration.Value += 0.1f);
         }
     }
 
@@ -155,7 +155,7 @@ public class DocumentHolder : MonoBehaviour
         doc.transform.position = position;
 
         doc.parent = null;
-        doc.DOMoveY(-10, 0.4f).SetEase(Ease.InQuart).onComplete += () =>
+        doc.DOMoveX(10, 0.4f).SetEase(Ease.InQuart).onComplete += () =>
         {
             action();
             Destroy(doc.gameObject);

@@ -58,7 +58,7 @@ public class HoldScript : MonoBehaviour
         {
             transform.position = holdOffset + pos;
             if (sendToButtons) FindObjectOfType<ButtonsScript>().Highlight(pos);
-            if (Input.GetMouseButtonUp(0))
+            if (!Input.GetMouseButton(0))
             {
                 heldItem = null;
                 transform.localScale = baseScale;
