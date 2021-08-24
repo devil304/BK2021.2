@@ -61,20 +61,30 @@ public class HoldScript : MonoBehaviour
             if (!Input.GetMouseButton(0))
             {
                 heldItem = null;
-                transform.localScale = baseScale;
                 var position = transform.position;
                 position.z = baseZPos;
                 transform.position = position;
 
-                foreach (var r in GetComponentsInChildren<SpriteRenderer>())
-                {
-                    var col = r.color;
-                    col.a = 1;
-                    r.color = col;
-                }
                 if (documents != null) documents.Stamp(collider, stampMarkPrefab);
-                if (sendToButtons) FindObjectOfType<ButtonsScript>().Press(gameObject, pos);
+
+                if (sendToButtons)
+                {
+                    if (!FindObjectOfType<ButtonsScript>().Press(gameObject, pos)) RevertHoldModifiers();
+                }
+                else RevertHoldModifiers();
             }
+        }
+    }
+
+    void RevertHoldModifiers()
+    {
+        transform.localScale = baseScale;
+
+        foreach (var r in GetComponentsInChildren<SpriteRenderer>())
+        {
+            var col = r.color;
+            col.a = 1;
+            r.color = col;
         }
     }
 }

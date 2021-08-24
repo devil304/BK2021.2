@@ -12,8 +12,13 @@ public class ButtonsScript : MonoBehaviour
     [SerializeField] Collider2D spaceStationB;
     [SerializeField] Collider2D trash;
 
-    public void Press(GameObject doc, Vector3 mousePos)
+    public bool Press(GameObject doc, Vector3 mousePos)
     {
+        bossu.transform.localScale = Vector3.one;
+        spaceStationA.transform.localScale = Vector3.one;
+        spaceStationB.transform.localScale = Vector3.one;
+        trash.transform.localScale = Vector3.one;
+
         if (bossu.OverlapPoint(mousePos)) documents.Bossu();
         else if (spaceStationA.OverlapPoint(mousePos)) documents.SpaceStationA();
         else if (spaceStationB.OverlapPoint(mousePos)) documents.SpaceStationB();
@@ -23,12 +28,11 @@ public class ButtonsScript : MonoBehaviour
             var pos = documents.GetRandomDocumentPosition();
             pos.z = doc.transform.position.z;
             doc.transform.DOMove(pos, 0.15f).SetEase(Ease.OutQuad);
+
+            return false;
         }
 
-        bossu.transform.localScale = Vector3.one;
-        spaceStationA.transform.localScale = Vector3.one;
-        spaceStationB.transform.localScale = Vector3.one;
-        trash.transform.localScale = Vector3.one;
+        return true;
     }
 
     public void Highlight(Vector3 mousePos)

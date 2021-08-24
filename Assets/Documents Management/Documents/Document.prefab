@@ -234,7 +234,7 @@ MonoBehaviour:
   documents: {fileID: 0}
   sendToButtons: 1
   stampMarkPrefab: {fileID: 0}
-  holdScale: 0.7
+  holdScale: 0.3
   holdAlpha: 0.6
 --- !u!61 &1371441324772274215
 BoxCollider2D:
