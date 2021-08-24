@@ -9,4 +9,5 @@ public struct StarShipData : IComponentData
     public float MaxSpeedUp, MinSpeedUp,
         speedSides,
         acceleration;
+    public float maxX, maxY;
 }
