@@ -610,9 +610,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -2, y: -0.945}
-      - {x: 2, y: -0.945}
-      - {x: 0, y: 1}
+    - - {x: -1.15, y: -0.54}
+      - {x: 1.15, y: -0.54}
+      - {x: 0, y: 0.6}
 --- !u!212 &462866904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -772,7 +772,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 1.66}
+  m_Size: {x: 1.8, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &492613527
 MonoBehaviour:
@@ -1150,9 +1150,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012657404, y: 0}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.9809897
+  m_Radius: 0.6
 --- !u!1 &882857110
 GameObject:
   m_ObjectHideFlags: 0

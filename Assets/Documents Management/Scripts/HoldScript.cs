@@ -31,7 +31,7 @@ public class HoldScript : MonoBehaviour
         pos.z = transform.position.z;
 
         collider.enabled = true;
-        if (heldItem == null && Input.GetMouseButtonDown(0) && collider.OverlapPoint(pos) && DOTween.TweensByTarget(transform) == null)
+        if (heldItem == null && Input.GetMouseButtonDown(0) && collider.OverlapPoint(pos) && (!sendToButtons || DOTween.TweensByTarget(transform) == null))
         {
             heldItem = this;
 
@@ -43,20 +43,23 @@ public class HoldScript : MonoBehaviour
             transform.position = position;
             Vector3 newPos = transform.TransformPoint(localPos);
 
+            transform.localScale = baseScale;
+            transform.DOComplete();
+            transform.DOScale(baseScale * holdScale, 0.1f);
+
             holdOffset = transform.position - newPos;
 
             foreach (var r in GetComponentsInChildren<SpriteRenderer>())
             {
-                var col = r.color;
-                col.a = holdAlpha;
-                r.color = col;
+                r.DOComplete();
+                r.DOFade(holdAlpha, 0.1f);
             }
         }
         collider.enabled = false;
 
         if (heldItem == this)
         {
-            transform.position = holdOffset + pos;
+            transform.position = Vector3.MoveTowards(transform.position, holdOffset + pos, 100 * Time.deltaTime);
             if (sendToButtons) FindObjectOfType<ButtonsScript>().Highlight(pos);
             if (!Input.GetMouseButton(0))
             {
@@ -78,13 +81,12 @@ public class HoldScript : MonoBehaviour
 
     void RevertHoldModifiers()
     {
-        transform.localScale = baseScale;
+        transform.DOScale(baseScale, 0.1f);
 
         foreach (var r in GetComponentsInChildren<SpriteRenderer>())
         {
-            var col = r.color;
-            col.a = 1;
-            r.color = col;
+            r.DOComplete();
+            r.DOFade(1f, 0.1f);
         }
     }
 }
