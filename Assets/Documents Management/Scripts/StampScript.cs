@@ -7,14 +7,17 @@ public class StampScript : MonoBehaviour
     [SerializeField] new Collider2D collider;
     [SerializeField] DocumentHolder documents;
     [SerializeField] GameObject stampMarkPrefab;
+    [SerializeField] float holdScale = 1.2f;
     new Camera camera;
 
     static StampScript holdingStamp = null;
     static Vector3 holdOffset = Vector3.zero;
+    Vector3 baseScale;
 
     void Start()
     {
         camera = GameObject.FindGameObjectWithTag("DocumentsMainCamera").GetComponent<Camera>();
+        baseScale = transform.localScale;
     }
 
     void Update()
@@ -26,6 +29,7 @@ public class StampScript : MonoBehaviour
         {
             holdingStamp = this;
             holdOffset = transform.position - pos;
+            transform.localScale = baseScale * holdScale;
         }
 
         if (holdingStamp == this)
@@ -33,6 +37,7 @@ public class StampScript : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 holdingStamp = null;
+                transform.localScale = baseScale;
                 documents.Stamp(collider, stampMarkPrefab);
             }
 

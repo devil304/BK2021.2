@@ -2,34 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 
 public class DocumentHolder : MonoBehaviour
 {
     [SerializeField] float maxSpread = 0f;
     [SerializeField] List<GameObject> documentPrefabs;
 
-    [SerializeField] float animTime = 1f;
-    [SerializeField] Ease animEase = Ease.OutBack;
-
     public int currentDocZPos = 0;
+
+    public TextMeshProUGUI stationAText;
+    public TextMeshProUGUI stationBText;
+
+    int stationADocuments = 0;
+    public int StationADocuments
+    {
+        get => stationADocuments;
+        set { stationADocuments = value; stationAText.text = value.ToString(); }
+    }
+    int stationBDocuments = 0;
+    public int StationBDocuments
+    {
+        get => stationBDocuments;
+        set { stationBDocuments = value; stationBText.text = value.ToString(); }
+    }
 
     IEnumerator Start()
     {
+        StationADocuments = 0;
+        StationBDocuments = 0;
         while (true)
         {
-            // SpawnDocument((Document)Random.Range(0, 4));
-            SpawnDocument(Document.One);
+            SpawnDocument(documentPrefabs[Random.Range(0, documentPrefabs.Count)]);
             yield return new WaitForSeconds(4f);
-            // break;
         }
     }
 
-    public void SpawnDocument(Document document)
+    public void SpawnDocument(GameObject document)
     {
-        var doc = documentPrefabs[(int)document];
         Vector3 pos = transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
-        var go = Instantiate(doc, pos + new Vector3(0, 10, 0), Quaternion.identity, transform);
-        go.transform.DOMoveY(pos.y, animTime).SetEase(animEase);
+        var go = Instantiate(document, pos + new Vector3(0, 10, 0), Quaternion.identity, transform);
+        go.transform.DOMoveY(pos.y, 0.7f).SetEase(Ease.OutExpo);
 
         currentDocZPos += 1;
     }
@@ -47,7 +60,7 @@ public class DocumentHolder : MonoBehaviour
 
             float dist = Vector2.Distance(area.bounds.center, collider.bounds.center);
 
-            if (dist < 0.2f && (
+            if (dist < 0.3f && (
                 (area is BoxCollider2D && collider is BoxCollider2D) ||
                 (area is CircleCollider2D && collider is CircleCollider2D)))
             {
@@ -58,41 +71,81 @@ public class DocumentHolder : MonoBehaviour
 
     public void SpaceStationA()
     {
-        RemoveUpper();
+        if (transform.childCount == 0) return;
+        var doc = transform.GetChild(0);
+        if (doc.CompareTag("DocumentA"))
+        {
+            if (doc.GetComponents<Collider2D>().Length == 0)
+            {
+                RemoveUpper(() => StationADocuments++);
+            }
+            else
+            {
+                RemoveUpper(() => Debug.Log("Bad marks"));
+            }
+        }
+        else
+        {
+            RemoveUpper(() => Debug.Log("Wrong"));
+        }
     }
 
     public void SpaceStationB()
     {
-        RemoveUpper();
+        if (transform.childCount == 0) return;
+        var doc = transform.GetChild(0);
+        if (doc.CompareTag("DocumentB"))
+        {
+            if (doc.GetComponents<Collider2D>().Length == 0)
+            {
+                RemoveUpper(() => StationBDocuments++);
+            }
+            else
+            {
+                RemoveUpper(() => Debug.Log("Bad marks"));
+            }
+        }
+        else
+        {
+            RemoveUpper(() => Debug.Log("Wrong"));
+        }
     }
 
     public void Bossu()
     {
-        RemoveUpper();
+        if (transform.childCount == 0) return;
+        var doc = transform.GetChild(0);
+        if (doc.CompareTag("DocumentBossu"))
+        {
+            if (doc.GetComponents<Collider2D>().Length == 0)
+            {
+                RemoveUpper(() => { });
+            }
+            else
+            {
+                RemoveUpper(() => Debug.Log("Bad marks"));
+            }
+        }
+        else
+        {
+            RemoveUpper(() => Debug.Log("Wrong"));
+        }
     }
 
     public void TrashBin()
     {
-        RemoveUpper();
+        if (transform.childCount == 0) return;
+        RemoveUpper(() => { });
     }
 
-    void RemoveUpper()
+    void RemoveUpper(System.Action action)
     {
-        if (transform.childCount == 0) return;
         var doc = transform.GetChild(0);
-        Debug.Log(doc.GetComponents<Collider2D>().Length);
         doc.parent = null;
-        doc.DOMoveY(-10, animTime).SetEase(animEase).onComplete += () =>
+        doc.DOMoveY(-10, 0.4f).SetEase(Ease.InQuart).onComplete += () =>
         {
+            action();
             Destroy(doc.gameObject);
         };
     }
-}
-
-public enum Document
-{
-    One,
-    Two,
-    Three,
-    Four
 }
