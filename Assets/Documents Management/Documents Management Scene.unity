@@ -250,7 +250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202792751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 3.2, z: 0}
+  m_LocalPosition: {x: 3, y: 3.2, z: 170}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 1562421159}
@@ -342,6 +342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 213418321}
+  - component: {fileID: 213418322}
   m_Layer: 6
   m_Name: Buttons
   m_TagString: Untagged
@@ -357,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213418320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 150}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 693764484}
@@ -368,6 +369,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213418322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213418320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b455b55b4c49947be4293e6c58dd48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  documents: {fileID: 1162828895}
+  bossu: {fileID: 693764486}
+  spaceStationA: {fileID: 882857113}
+  spaceStationB: {fileID: 1278094957}
+  trash: {fileID: 1880517022}
 --- !u!1 &399748333
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,7 +598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492613523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.74, y: 2.6, z: -4}
+  m_LocalPosition: {x: 2.74, y: 2.6, z: -2}
   m_LocalScale: {x: 1.5, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 1562421159}
@@ -626,8 +644,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 492613526}
   documents: {fileID: 1162828895}
+  sendToButtons: 0
   stampMarkPrefab: {fileID: 2925378473518435653, guid: b0f281a82af9b654098b4e55aec4dd0d, type: 3}
   holdScale: 1.1
+  holdAlpha: 1
 --- !u!1 &540102604
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +793,6 @@ GameObject:
   - component: {fileID: 693764484}
   - component: {fileID: 693764485}
   - component: {fileID: 693764486}
-  - component: {fileID: 693764487}
   m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
@@ -872,34 +891,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &693764487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693764483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4238d3db0622ffa44b33ee1538631041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 693764486}
-  click:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1162828895}
-        m_TargetAssemblyTypeName: DocumentHolder, Assembly-CSharp
-        m_MethodName: Bossu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &749587467
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749587467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.9700003, y: 3.62, z: -4}
+  m_LocalPosition: {x: 2.9700003, y: 3.62, z: -2}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1562421159}
@@ -998,8 +989,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 749587471}
   documents: {fileID: 1162828895}
+  sendToButtons: 0
   stampMarkPrefab: {fileID: 5721084294039341049, guid: 0a7db033b48f51242a2cbcdcbd7d0b67, type: 3}
   holdScale: 1.1
+  holdAlpha: 1
 --- !u!58 &749587471
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1027,7 +1020,6 @@ GameObject:
   - component: {fileID: 882857111}
   - component: {fileID: 882857112}
   - component: {fileID: 882857113}
-  - component: {fileID: 882857114}
   m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
@@ -1126,34 +1118,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &882857114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882857110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4238d3db0622ffa44b33ee1538631041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 882857113}
-  click:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1162828895}
-        m_TargetAssemblyTypeName: DocumentHolder, Assembly-CSharp
-        m_MethodName: SpaceStationA
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &915278471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,9 +1229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpread: 0.2
   documentPrefabs:
-  - {fileID: 3527382051338306354, guid: f2797472d86adc545b1a20145db46472, type: 3}
-  - {fileID: 3527382051338306354, guid: b14273975e920294ba90e7588a204c63, type: 3}
-  - {fileID: 3527382051338306354, guid: 137a6106b91c3f4428ee4f18c60eff91, type: 3}
+  - {fileID: 461396539348593840, guid: 6c5af676707ad044590f16609340224b, type: 3}
+  - {fileID: 4591572110716067517, guid: 0a5f2b5679287714d8e3e06023ca7466, type: 3}
+  - {fileID: 1488893341206249436, guid: 83127b6eb5cf4ef4ea9b5162ffdda23c, type: 3}
   currentDocZPos: 0
   stationAText: {fileID: 399748335}
   stationBText: {fileID: 540102606}
@@ -1282,7 +1246,6 @@ GameObject:
   - component: {fileID: 1278094955}
   - component: {fileID: 1278094956}
   - component: {fileID: 1278094957}
-  - component: {fileID: 1278094958}
   m_Layer: 6
   m_Name: Square (2)
   m_TagString: Untagged
@@ -1381,34 +1344,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1278094958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278094954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4238d3db0622ffa44b33ee1538631041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 1278094957}
-  click:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1162828895}
-        m_TargetAssemblyTypeName: DocumentHolder, Assembly-CSharp
-        m_MethodName: SpaceStationB
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1562421158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1483,6 @@ GameObject:
   - component: {fileID: 1880517020}
   - component: {fileID: 1880517021}
   - component: {fileID: 1880517022}
-  - component: {fileID: 1880517023}
   m_Layer: 6
   m_Name: Square (3)
   m_TagString: Untagged
@@ -1647,34 +1581,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1880517023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880517019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4238d3db0622ffa44b33ee1538631041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 1880517022}
-  click:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1162828895}
-        m_TargetAssemblyTypeName: DocumentHolder, Assembly-CSharp
-        m_MethodName: TrashBin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2010537542
 GameObject:
   m_ObjectHideFlags: 0

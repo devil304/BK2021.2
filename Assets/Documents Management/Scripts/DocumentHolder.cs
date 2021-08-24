@@ -27,6 +27,9 @@ public class DocumentHolder : MonoBehaviour
         set { stationBDocuments = value; stationBText.text = value.ToString(); }
     }
 
+    public Vector3 GetRandomDocumentPosition() =>
+            transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
+
     IEnumerator Start()
     {
         StationADocuments = 0;
@@ -38,9 +41,14 @@ public class DocumentHolder : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (transform.childCount != 0) transform.GetChild(0).GetComponent<HoldScript>().enabled = true;
+    }
+
     public void SpawnDocument(GameObject document)
     {
-        Vector3 pos = transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
+        Vector3 pos = GetRandomDocumentPosition();
         var go = Instantiate(document, pos + new Vector3(0, 10, 0), Quaternion.identity, transform);
         go.transform.DOMoveY(pos.y, 0.7f).SetEase(Ease.OutExpo);
 
@@ -75,7 +83,7 @@ public class DocumentHolder : MonoBehaviour
         var doc = transform.GetChild(0);
         if (doc.CompareTag("DocumentA"))
         {
-            if (doc.GetComponents<Collider2D>().Length == 0)
+            if (doc.GetComponents<Collider2D>().Length == 1)
             {
                 RemoveUpper(() => StationADocuments++);
             }
@@ -96,7 +104,7 @@ public class DocumentHolder : MonoBehaviour
         var doc = transform.GetChild(0);
         if (doc.CompareTag("DocumentB"))
         {
-            if (doc.GetComponents<Collider2D>().Length == 0)
+            if (doc.GetComponents<Collider2D>().Length == 1)
             {
                 RemoveUpper(() => StationBDocuments++);
             }
@@ -117,7 +125,7 @@ public class DocumentHolder : MonoBehaviour
         var doc = transform.GetChild(0);
         if (doc.CompareTag("DocumentBossu"))
         {
-            if (doc.GetComponents<Collider2D>().Length == 0)
+            if (doc.GetComponents<Collider2D>().Length == 1)
             {
                 RemoveUpper(() => { });
             }
@@ -132,7 +140,7 @@ public class DocumentHolder : MonoBehaviour
         }
     }
 
-    public void TrashBin()
+    public void Trash()
     {
         if (transform.childCount == 0) return;
         RemoveUpper(() => { });
@@ -141,6 +149,11 @@ public class DocumentHolder : MonoBehaviour
     void RemoveUpper(System.Action action)
     {
         var doc = transform.GetChild(0);
+
+        var position = doc.transform.position;
+        position.z = -3;
+        doc.transform.position = position;
+
         doc.parent = null;
         doc.DOMoveY(-10, 0.4f).SetEase(Ease.InQuart).onComplete += () =>
         {
