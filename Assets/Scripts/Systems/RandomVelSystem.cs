@@ -14,7 +14,7 @@ public class RandomVelSystem : SystemBase
     {
         Entities.WithNone<StarShipData>().ForEach((Entity e, int entityInQueryIndex, ref PhysicsVelocity PV)=> {
             Random rand = Random.CreateFromIndex((uint)entityInQueryIndex);
-            PV.Linear = rand.NextFloat3(new float3(-1f,-1f,0), new float3(1f,1f,0));
+            //PV.Linear = rand.NextFloat3(new float3(-1f,-1f,0), new float3(1f,1f,0));
         }).WithBurst().ScheduleParallel();
     }
 
