@@ -700,7 +700,14 @@ MonoBehaviour:
   collider: {fileID: 462866903}
   documents: {fileID: 1162828895}
   sendToButtons: 0
-  stampMarkPrefab: {fileID: 1222964008853052631, guid: 558958b6f0743654b98e92647a9d4964, type: 3}
+  stampMarkPrefabs:
+  - {fileID: 1222964008853052631, guid: 558958b6f0743654b98e92647a9d4964, type: 3}
+  - {fileID: 1222964008853052631, guid: 1492e99fcc049d3438e4a617f154cbb2, type: 3}
+  - {fileID: 1222964008853052631, guid: 2bd62ffcff94a6c42accdb05630ee9fd, type: 3}
+  - {fileID: 1222964008853052631, guid: cfb4c999a90759f4d916a065e36eaa8f, type: 3}
+  - {fileID: 1222964008853052631, guid: 862e02fd3c981de4ab7c7f8a120efc89, type: 3}
+  - {fileID: 1222964008853052631, guid: 0047b1b1c6b695146a145885ec7874ed, type: 3}
+  - {fileID: 1222964008853052631, guid: c51a31060990ac4409ef98ed83aa1474, type: 3}
   holdScale: 1.1
   holdAlpha: 1
 --- !u!60 &462866903
@@ -907,7 +914,14 @@ MonoBehaviour:
   collider: {fileID: 492613526}
   documents: {fileID: 1162828895}
   sendToButtons: 0
-  stampMarkPrefab: {fileID: 2925378473518435653, guid: b0f281a82af9b654098b4e55aec4dd0d, type: 3}
+  stampMarkPrefabs:
+  - {fileID: 2925378473518435653, guid: b0f281a82af9b654098b4e55aec4dd0d, type: 3}
+  - {fileID: 2925378473518435653, guid: 7fac2f7f035595943b7e0c214d6aaf65, type: 3}
+  - {fileID: 2925378473518435653, guid: 2ce75fb0ff7299243b0a9e091cee6f2e, type: 3}
+  - {fileID: 2925378473518435653, guid: 16f121249629c144f90fbf3d7967551f, type: 3}
+  - {fileID: 2925378473518435653, guid: ef64e1eb18cdf4943bc3947ef42f9839, type: 3}
+  - {fileID: 2925378473518435653, guid: 8149a8b217706f3468d9cfc0d9cb2743, type: 3}
+  - {fileID: 2925378473518435653, guid: 83e01581db107c94b9afa4be63593fb8, type: 3}
   holdScale: 1.1
   holdAlpha: 1
 --- !u!1 &540102604
@@ -1334,7 +1348,14 @@ MonoBehaviour:
   collider: {fileID: 749587471}
   documents: {fileID: 1162828895}
   sendToButtons: 0
-  stampMarkPrefab: {fileID: 5721084294039341049, guid: 0a7db033b48f51242a2cbcdcbd7d0b67, type: 3}
+  stampMarkPrefabs:
+  - {fileID: 5721084294039341049, guid: 0a7db033b48f51242a2cbcdcbd7d0b67, type: 3}
+  - {fileID: 5721084294039341049, guid: f3e39ee3e3b74f24097077b39afeafb6, type: 3}
+  - {fileID: 5721084294039341049, guid: b0f0434c3bfc64d4c902092919b20296, type: 3}
+  - {fileID: 5721084294039341049, guid: a466176f00aee0d4c9dc4a3f855acfe5, type: 3}
+  - {fileID: 5721084294039341049, guid: e6ddbce9923fba44ca03a387c6ccebec, type: 3}
+  - {fileID: 5721084294039341049, guid: 2c807627aa676db43858307af46314b2, type: 3}
+  - {fileID: 5721084294039341049, guid: 60338386b42bfa344875276981e849c9, type: 3}
   holdScale: 1.1
   holdAlpha: 1
 --- !u!58 &749587471

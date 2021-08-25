@@ -8,7 +8,7 @@ public class HoldScript : MonoBehaviour
     [SerializeField] new Collider2D collider;
     [SerializeField] DocumentHolder documents;
     [SerializeField] bool sendToButtons = false;
-    [SerializeField] GameObject stampMarkPrefab;
+    [SerializeField] List<GameObject> stampMarkPrefabs;
     [SerializeField] float holdScale = 1.2f;
     [SerializeField] float holdAlpha = 1f;
     new Camera camera;
@@ -68,7 +68,7 @@ public class HoldScript : MonoBehaviour
                 position.z = baseZPos;
                 transform.position = position;
 
-                if (documents != null) documents.Stamp(collider, stampMarkPrefab);
+                if (documents != null) documents.Stamp(collider, stampMarkPrefabs[Random.Range(0, stampMarkPrefabs.Count)]);
 
                 if (sendToButtons)
                 {
