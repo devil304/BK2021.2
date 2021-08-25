@@ -31,7 +31,7 @@ public class HoldScript : MonoBehaviour
         pos.z = transform.position.z;
 
         collider.enabled = true;
-        if (heldItem == null && Input.GetMouseButtonDown(0) && collider.OverlapPoint(pos) && (!sendToButtons || DOTween.TweensByTarget(transform) == null))
+        if (heldItem == null && Input.GetMouseButtonDown(0) && collider.OverlapPoint(pos))
         {
             heldItem = this;
 

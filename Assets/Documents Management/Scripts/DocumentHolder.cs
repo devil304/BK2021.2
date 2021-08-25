@@ -12,19 +12,50 @@ public class DocumentHolder : MonoBehaviour
     public int currentDocZPos = 0;
 
     public TextMeshProUGUI stationAText;
-    public TextMeshProUGUI stationBText;
-
+    public SpriteRenderer stationASpriteRend;
+    public Sprite stationASprite;
+    public Sprite stationAAltSprite;
     int stationADocuments = 0;
     public int StationADocuments
     {
         get => stationADocuments;
-        set { stationADocuments = value; stationAText.text = value.ToString(); }
+        set
+        {
+            stationADocuments = value;
+            stationAText.text = stationADocuments.ToString();
+            stationASpriteRend.sprite = stationADocuments == 0 ? stationAAltSprite : stationASprite;
+        }
     }
+
+    public TextMeshProUGUI stationBText;
+    public SpriteRenderer stationBSpriteRend;
+    public Sprite stationBSprite;
+    public Sprite stationBAltSprite;
     int stationBDocuments = 0;
     public int StationBDocuments
     {
         get => stationBDocuments;
-        set { stationBDocuments = value; stationBText.text = value.ToString(); }
+        set
+        {
+            stationBDocuments = value;
+            stationBText.text = stationBDocuments.ToString();
+            stationBSpriteRend.sprite = stationBDocuments == 0 ? stationBAltSprite : stationBSprite;
+        }
+    }
+
+    public Transform bossIndicator;
+    int bossDocuments = 0;
+    public int BossBDocuments
+    {
+        get => bossDocuments;
+        set
+        {
+            bossDocuments = Mathf.Clamp(value, 0, 5);
+            for (int i = 0; i <= 5; i++)
+            {
+                bossIndicator.GetChild(i).gameObject.SetActive(i <= bossDocuments);
+            }
+        }
     }
 
     public Vector3 GetRandomDocumentPosition() =>
@@ -34,6 +65,7 @@ public class DocumentHolder : MonoBehaviour
     {
         StationADocuments = 0;
         StationBDocuments = 0;
+        BossBDocuments = 0;
         while (true)
         {
             SpawnDocument(documentPrefabs[Random.Range(0, documentPrefabs.Count)]);
@@ -128,7 +160,7 @@ public class DocumentHolder : MonoBehaviour
         {
             if (doc.GetComponents<Collider2D>().Length == 1)
             {
-                RemoveUpper(() => { });
+                RemoveUpper(() => BossBDocuments++);
             }
             else
             {

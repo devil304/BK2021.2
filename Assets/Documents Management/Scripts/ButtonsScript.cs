@@ -12,12 +12,19 @@ public class ButtonsScript : MonoBehaviour
     [SerializeField] Collider2D spaceStationB;
     [SerializeField] Collider2D trash;
 
+    Vector3 baseScale;
+
+    void Start()
+    {
+        baseScale = trash.transform.localScale;
+    }
+
     public bool Press(GameObject doc, Vector3 mousePos)
     {
-        bossu.transform.localScale = Vector3.one / 2;
-        spaceStationA.transform.localScale = Vector3.one / 2;
-        spaceStationB.transform.localScale = Vector3.one / 2;
-        trash.transform.localScale = Vector3.one / 2;
+        bossu.transform.localScale = baseScale;
+        spaceStationA.transform.localScale = baseScale;
+        spaceStationB.transform.localScale = baseScale;
+        trash.transform.localScale = baseScale;
 
         if (bossu.OverlapPoint(mousePos)) documents.Bossu();
         else if (spaceStationA.OverlapPoint(mousePos)) documents.SpaceStationA();
@@ -37,14 +44,14 @@ public class ButtonsScript : MonoBehaviour
 
     public void Highlight(Vector3 mousePos)
     {
-        bossu.transform.localScale = Vector3.one / 2;
-        spaceStationA.transform.localScale = Vector3.one / 2;
-        spaceStationB.transform.localScale = Vector3.one / 2;
-        trash.transform.localScale = Vector3.one / 2;
+        bossu.transform.localScale = baseScale;
+        spaceStationA.transform.localScale = baseScale;
+        spaceStationB.transform.localScale = baseScale;
+        trash.transform.localScale = baseScale;
 
-        if (bossu.OverlapPoint(mousePos)) bossu.transform.localScale = new Vector3(0.7f, 0.7f, 1);
-        else if (spaceStationA.OverlapPoint(mousePos)) spaceStationA.transform.localScale = new Vector3(0.7f, 0.7f, 1);
-        else if (spaceStationB.OverlapPoint(mousePos)) spaceStationB.transform.localScale = new Vector3(0.7f, 0.7f, 1);
-        else if (trash.OverlapPoint(mousePos)) trash.transform.localScale = new Vector3(0.7f, 0.7f, 1);
+        if (bossu.OverlapPoint(mousePos)) bossu.transform.localScale = baseScale * 1.2f;
+        else if (spaceStationA.OverlapPoint(mousePos)) spaceStationA.transform.localScale = baseScale * 1.2f;
+        else if (spaceStationB.OverlapPoint(mousePos)) spaceStationB.transform.localScale = baseScale * 1.2f;
+        else if (trash.OverlapPoint(mousePos)) trash.transform.localScale = baseScale * 1.2f;
     }
 }
