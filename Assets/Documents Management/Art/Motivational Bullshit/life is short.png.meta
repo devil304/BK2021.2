@@ -1,0 +1,1236 @@
+fileFormatVersion: 2
+guid: 990fbbd957be31b479e026ff0c8d90ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -990476507047234439
+    second: life is short_0
+  - first:
+      213: 7666328035308331796
+    second: life is short_1
+  - first:
+      213: 4587191882969804770
+    second: life is short_2
+  - first:
+      213: 3478447270242866432
+    second: life is short_3
+  - first:
+      213: -1510457649110197317
+    second: life is short_4
+  - first:
+      213: 5462250091481041212
+    second: life is short_5
+  - first:
+      213: 3490853764868728660
+    second: life is short_6
+  - first:
+      213: 8434706499864154277
+    second: life is short_7
+  - first:
+      213: -175699693140346350
+    second: life is short_8
+  - first:
+      213: -3871274004551246988
+    second: life is short_9
+  - first:
+      213: 4557517611248682371
+    second: life is short_10
+  - first:
+      213: 314768566546727480
+    second: life is short_11
+  - first:
+      213: 3767444428944232264
+    second: life is short_12
+  - first:
+      213: 7922933022326329313
+    second: life is short_13
+  - first:
+      213: -7836324615783898587
+    second: life is short_14
+  - first:
+      213: -2446271202415209822
+    second: life is short_15
+  - first:
+      213: 6408723337548304578
+    second: life is short_16
+  - first:
+      213: -2462377377137373944
+    second: life is short_17
+  - first:
+      213: 1326339201203990822
+    second: life is short_18
+  - first:
+      213: 1703874339578345929
+    second: life is short_19
+  - first:
+      213: 4624426968206986261
+    second: life is short_20
+  - first:
+      213: 4849554509202623181
+    second: life is short_21
+  - first:
+      213: -6832454941002642113
+    second: life is short_22
+  - first:
+      213: -6646071368402911702
+    second: life is short_23
+  - first:
+      213: -2157688143425196792
+    second: life is short_24
+  - first:
+      213: -3775570274915881031
+    second: life is short_25
+  - first:
+      213: -2679852578081554628
+    second: life is short_26
+  - first:
+      213: -6489537138808974657
+    second: life is short_27
+  - first:
+      213: -7823204030501282951
+    second: life is short_28
+  - first:
+      213: -9107652387133620309
+    second: life is short_29
+  - first:
+      213: -6522453453536000577
+    second: life is short_30
+  - first:
+      213: -7151468625642377727
+    second: life is short_31
+  - first:
+      213: -6956077818502354720
+    second: life is short_32
+  - first:
+      213: -5491922694501086168
+    second: life is short_33
+  - first:
+      213: 3126402354119126561
+    second: life is short_34
+  - first:
+      213: 7347571518696498496
+    second: life is short_35
+  - first:
+      213: -8453374266895833945
+    second: life is short_36
+  - first:
+      213: -7485809429531353630
+    second: life is short_37
+  - first:
+      213: -1633717482193980037
+    second: life is short_38
+  - first:
+      213: -4555052496432967674
+    second: life is short_39
+  - first:
+      213: 431590718800096484
+    second: life is short_40
+  - first:
+      213: -1545075937661948073
+    second: life is short_41
+  - first:
+      213: -3230385435770894497
+    second: life is short_42
+  - first:
+      213: 4098296397188676959
+    second: life is short_43
+  - first:
+      213: -5570457122106910559
+    second: life is short_44
+  - first:
+      213: -2529189984953055549
+    second: life is short_45
+  - first:
+      213: 2346135088022294246
+    second: life is short_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: life is short_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97474175dde1142f0800000000000000
+      internalID: -990476507047234439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_1
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413eb2ceab4446a60800000000000000
+      internalID: 7666328035308331796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_2
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef68fca6baf8af30800000000000000
+      internalID: 4587191882969804770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_3
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005d0c8dc5de54030800000000000000
+      internalID: 3478447270242866432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd38855c6c90be0800000000000000
+      internalID: -1510457649110197317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c398219948fcdcb40800000000000000
+      internalID: 5462250091481041212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_6
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e5d9f001027030800000000000000
+      internalID: 3490853764868728660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_7
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0d4156fd81e0570800000000000000
+      internalID: 8434706499864154277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a793b5f0acf8df0800000000000000
+      internalID: -175699693140346350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bd482cdc8764ac0800000000000000
+      internalID: -3871274004551246988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_10
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3858014ee1e8f3f30800000000000000
+      internalID: 4557517611248682371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_11
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8320a73f7584e5400800000000000000
+      internalID: 314768566546727480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fce325fb6a84430800000000000000
+      internalID: 3767444428944232264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef09f63b99e3fd60800000000000000
+      internalID: 7922933022326329313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_14
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5222d83d748cf3390800000000000000
+      internalID: -7836324615783898587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_15
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a216c36d491d0ed0800000000000000
+      internalID: -2446271202415209822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0925eabeb50f850800000000000000
+      internalID: 6408723337548304578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dc4cc52d0e3ddd0800000000000000
+      internalID: -2462377377137373944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_18
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621707be97a186210800000000000000
+      internalID: 1326339201203990822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c978703fa065a710800000000000000
+      internalID: 1703874339578345929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cc6b983d34d2040800000000000000
+      internalID: 4624426968206986261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_21
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8aefc1241d4340800000000000000
+      internalID: 4849554509202623181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_22
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dcca95e6e3e21a0800000000000000
+      internalID: -6832454941002642113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_23
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e33768d4964c3a0800000000000000
+      internalID: -6646071368402911702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da113c01a5e02e0800000000000000
+      internalID: -2157688143425196792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_25
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf6d1bb6da7a9bc0800000000000000
+      internalID: -3775570274915881031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_26
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fb80957404fcad0800000000000000
+      internalID: -2679852578081554628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_27
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb21694fa5880f5a0800000000000000
+      internalID: -6489537138808974657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b119422656e6390800000000000000
+      internalID: -7823204030501282951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf7927886e1b9180800000000000000
+      internalID: -9107652387133620309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_30
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb587f534279b75a0800000000000000
+      internalID: -6522453453536000577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_31
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e2c32dc21e0cc90800000000000000
+      internalID: -7151468625642377727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e86136341c077f90800000000000000
+      internalID: -6956077818502354720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_33
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4b542865c8c3b0800000000000000
+      internalID: -5491922694501086168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_34
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e273e6066336b20800000000000000
+      internalID: 3126402354119126561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_35
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045aeadfd51d7f560800000000000000
+      internalID: 7347571518696498496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ee3464e49faa80800000000000000
+      internalID: -8453374266895833945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_37
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed93804cff0d1890800000000000000
+      internalID: -7485809429531353630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_38
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b757b721b9ed359e0800000000000000
+      internalID: -1633717482193980037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_39
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6005bd063e339c0c0800000000000000
+      internalID: -4555052496432967674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec6f6ad8715df500800000000000000
+      internalID: 431590718800096484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_41
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe7a0fe99ce8ae0800000000000000
+      internalID: -1545075937661948073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_42
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57c74dbf8d5b23d0800000000000000
+      internalID: -3230385435770894497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_43
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5db1ba0cd210e830800000000000000
+      internalID: 4098296397188676959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d540d2c2c1b2b0800000000000000
+      internalID: -5570457122106910559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_45
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c561eb1386ecd0800000000000000
+      internalID: -2529189984953055549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life is short_46
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee06a4ae652f8020800000000000000
+      internalID: 2346135088022294246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

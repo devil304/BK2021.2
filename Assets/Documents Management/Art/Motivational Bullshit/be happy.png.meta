@@ -1,0 +1,1458 @@
+fileFormatVersion: 2
+guid: 0868f3caa16d0ef459a5b6ac2ae09f32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4688104322213837603
+    second: be happy_0
+  - first:
+      213: -5435704015920406818
+    second: be happy_1
+  - first:
+      213: -1584785511521849989
+    second: be happy_2
+  - first:
+      213: -3016695530647097418
+    second: be happy_3
+  - first:
+      213: 5330182446344959402
+    second: be happy_4
+  - first:
+      213: 4443001984935560106
+    second: be happy_5
+  - first:
+      213: 3993466499912873277
+    second: be happy_6
+  - first:
+      213: 7685857047757599105
+    second: be happy_7
+  - first:
+      213: 7416221598008369601
+    second: be happy_8
+  - first:
+      213: -1052962113127169080
+    second: be happy_9
+  - first:
+      213: -1037404989267933940
+    second: be happy_10
+  - first:
+      213: 7342117715712303464
+    second: be happy_11
+  - first:
+      213: -5472304765907531873
+    second: be happy_12
+  - first:
+      213: 4168354289809142009
+    second: be happy_13
+  - first:
+      213: 3729053455076982323
+    second: be happy_14
+  - first:
+      213: -2177745035313144856
+    second: be happy_15
+  - first:
+      213: -4884016878080095697
+    second: be happy_16
+  - first:
+      213: -5898381138652946692
+    second: be happy_17
+  - first:
+      213: -7550232630535144418
+    second: be happy_18
+  - first:
+      213: 7033689219516641452
+    second: be happy_19
+  - first:
+      213: -6841751827540396863
+    second: be happy_20
+  - first:
+      213: 5544380183926745482
+    second: be happy_21
+  - first:
+      213: 6243113582423652648
+    second: be happy_22
+  - first:
+      213: -8081358747733851059
+    second: be happy_23
+  - first:
+      213: -6205546148780183550
+    second: be happy_24
+  - first:
+      213: 591614099972808417
+    second: be happy_25
+  - first:
+      213: 7868222438919974355
+    second: be happy_26
+  - first:
+      213: -4904035653478683023
+    second: be happy_27
+  - first:
+      213: -7476116898079971188
+    second: be happy_28
+  - first:
+      213: 7648911725557546253
+    second: be happy_29
+  - first:
+      213: -6975371930694991229
+    second: be happy_30
+  - first:
+      213: 3997474459552896882
+    second: be happy_31
+  - first:
+      213: 2942747560013815988
+    second: be happy_32
+  - first:
+      213: 5004826689232491926
+    second: be happy_33
+  - first:
+      213: 6971070834400727555
+    second: be happy_34
+  - first:
+      213: -2692236401768187617
+    second: be happy_35
+  - first:
+      213: 5617606395056448844
+    second: be happy_36
+  - first:
+      213: -34206957202805480
+    second: be happy_37
+  - first:
+      213: 2714194778581867258
+    second: be happy_38
+  - first:
+      213: 4037715956364496647
+    second: be happy_39
+  - first:
+      213: 7876447586047242013
+    second: be happy_40
+  - first:
+      213: 3205048182235010499
+    second: be happy_41
+  - first:
+      213: -7536170811714332142
+    second: be happy_42
+  - first:
+      213: -8514204614934211124
+    second: be happy_43
+  - first:
+      213: 3951437417775103069
+    second: be happy_44
+  - first:
+      213: -7143595578123708470
+    second: be happy_45
+  - first:
+      213: -8002707469058977240
+    second: be happy_46
+  - first:
+      213: -5151018932461808609
+    second: be happy_47
+  - first:
+      213: 6097727757953529922
+    second: be happy_48
+  - first:
+      213: -573820798231709240
+    second: be happy_49
+  - first:
+      213: -7741105750705731848
+    second: be happy_50
+  - first:
+      213: -42314268429300909
+    second: be happy_51
+  - first:
+      213: -1755903211390065413
+    second: be happy_52
+  - first:
+      213: -4777721280900740312
+    second: be happy_53
+  - first:
+      213: -6899409164776436458
+    second: be happy_54
+  - first:
+      213: 4029620625606218071
+    second: be happy_55
+  - first:
+      213: 9160112764217655960
+    second: be happy_56
+  - first:
+      213: 8898229265745117979
+    second: be happy_57
+  - first:
+      213: -7790241615049549367
+    second: be happy_58
+  - first:
+      213: 6386218258850558679
+    second: be happy_59
+  - first:
+      213: -7436557910156912715
+    second: be happy_60
+  - first:
+      213: 7665576677591494681
+    second: be happy_61
+  - first:
+      213: -3506627638146624826
+    second: be happy_62
+  - first:
+      213: -43767207248339449
+    second: be happy_63
+  - first:
+      213: 7237632709862016315
+    second: be happy_64
+  - first:
+      213: 3777125945111352397
+    second: be happy_65
+  - first:
+      213: 4885349776568263980
+    second: be happy_66
+  - first:
+      213: -7475828473035578861
+    second: be happy_67
+  - first:
+      213: 3093860274167156245
+    second: be happy_68
+  - first:
+      213: 3978546949397551577
+    second: be happy_69
+  - first:
+      213: -6435127077359092640
+    second: be happy_70
+  - first:
+      213: -2616983075029444141
+    second: be happy_71
+  - first:
+      213: -8080015541579779601
+    second: be happy_72
+  - first:
+      213: 8943060030445457319
+    second: be happy_73
+  - first:
+      213: 7072504233920571704
+    second: be happy_74
+  - first:
+      213: -1870703409269547351
+    second: be happy_75
+  - first:
+      213: 8454965585998970726
+    second: be happy_76
+  - first:
+      213: 2111130626536525141
+    second: be happy_77
+  - first:
+      213: 3403783694177966070
+    second: be happy_78
+  - first:
+      213: 8576927811747077092
+    second: be happy_79
+  - first:
+      213: 8842736512686087157
+    second: be happy_80
+  - first:
+      213: 2643657551840014665
+    second: be happy_81
+  - first:
+      213: 5681302779779258002
+    second: be happy_82
+  - first:
+      213: -3008077529611539485
+    second: be happy_83
+  - first:
+      213: -3690030566137833903
+    second: be happy_84
+  - first:
+      213: -596393255998664170
+    second: be happy_85
+  - first:
+      213: -7303806300215482483
+    second: be happy_86
+  - first:
+      213: -14980527650931862
+    second: be happy_87
+  - first:
+      213: -7820985474628756668
+    second: be happy_88
+  - first:
+      213: -238298300500760074
+    second: be happy_89
+  - first:
+      213: 1948294509779449536
+    second: be happy_90
+  - first:
+      213: 822261300233523904
+    second: be happy_91
+  - first:
+      213: -8049070475314496562
+    second: be happy_92
+  - first:
+      213: 7821990147762727013
+    second: be happy_93
+  - first:
+      213: -6359876118339978442
+    second: be happy_94
+  - first:
+      213: 7074097324525548072
+    second: be happy_95
+  - first:
+      213: -1009908880513424054
+    second: be happy_96
+  - first:
+      213: 8419426185022825005
+    second: be happy_97
+  - first:
+      213: 339616525770510079
+    second: be happy_98
+  - first:
+      213: 7629758159736689014
+    second: be happy_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: be happy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b778bda0e7f0140800000000000000
+      internalID: 4688104322213837603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_1
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede56e24fff7094b0800000000000000
+      internalID: -5435704015920406818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_2
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ded8c49f5b10ae0800000000000000
+      internalID: -1584785511521849989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_3
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf6544e56b8226d0800000000000000
+      internalID: -3016695530647097418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f966c1bc98f940800000000000000
+      internalID: 5330182446344959402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38078e3c6b8ad30800000000000000
+      internalID: 4443001984935560106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_6
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35bab59f94ab6730800000000000000
+      internalID: 3993466499912873277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_7
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18136067346a9aa60800000000000000
+      internalID: 7685857047757599105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c16ed42046bbe660800000000000000
+      internalID: 7416221598008369601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c34c1579802361f0800000000000000
+      internalID: -1052962113127169080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_10
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05877e98a56a91f0800000000000000
+      internalID: -1037404989267933940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_11
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616228892174e560800000000000000
+      internalID: 7342117715712303464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9787651fc77e04b0800000000000000
+      internalID: -5472304765907531873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0bc064428f8d930800000000000000
+      internalID: 4168354289809142009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_14
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7e4a2c5240c330800000000000000
+      internalID: 3729053455076982323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_15
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb1ac6bd6817c1e0800000000000000
+      internalID: -2177745035313144856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a0609a68c783cb0800000000000000
+      internalID: -4884016878080095697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe1ab8fa9db42ea0800000000000000
+      internalID: -5898381138652946692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_18
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cb365ec6f283790800000000000000
+      internalID: -7550232630535144418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0b8cd341fac9160800000000000000
+      internalID: 7033689219516641452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4331646f63d01a0800000000000000
+      internalID: -6841751827540396863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_21
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892ba2e66891fc40800000000000000
+      internalID: 5544380183926745482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_22
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82937ccc9bef3a650800000000000000
+      internalID: 6243113582423652648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_23
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4404da290f39df80800000000000000
+      internalID: -8081358747733851059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200f9a4f7a871e9a0800000000000000
+      internalID: -6205546148780183550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_25
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeddf0b3e5d53800800000000000000
+      internalID: 591614099972808417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_26
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd259dde9a813d60800000000000000
+      internalID: 7868222438919974355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_27
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6d8c4e8d51fbb0800000000000000
+      internalID: -4904035653478683023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88e5a69a4f7f3890800000000000000
+      internalID: -7476116898079971188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d7d2050b4662a60800000000000000
+      internalID: 7648911725557546253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_30
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c1b6af20823f90800000000000000
+      internalID: -6975371930694991229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_31
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d85867d1e97730800000000000000
+      internalID: 3997474459552896882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b06542805db6d820800000000000000
+      internalID: 2942747560013815988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_33
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d81e6b57b47540800000000000000
+      internalID: 5004826689232491926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_34
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3029a845df73eb060800000000000000
+      internalID: 6971070834400727555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_35
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193b35b14143aad0800000000000000
+      internalID: -2692236401768187617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c456d41c04fb5fd40800000000000000
+      internalID: 5617606395056448844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_37
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d641324f8768ff0800000000000000
+      internalID: -34206957202805480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_38
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa979c45c1caa520800000000000000
+      internalID: 2714194778581867258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_39
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f48030549d80830800000000000000
+      internalID: 4037715956364496647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f245a2953ce4d60800000000000000
+      internalID: 7876447586047242013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_41
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c51126375e9a7c20800000000000000
+      internalID: 3205048182235010499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_42
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a991933942a6790800000000000000
+      internalID: -7536170811714332142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_43
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5dadd430877d980800000000000000
+      internalID: -8514204614934211124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cfba6556356d630800000000000000
+      internalID: 3951437417775103069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_45
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac792ea8ba9dcdc90800000000000000
+      internalID: -7143595578123708470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_46
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822df5105fba0f090800000000000000
+      internalID: -8002707469058977240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_47
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f145d4b7297e388b0800000000000000
+      internalID: -5151018932461808609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248fbd5b61b7f9450800000000000000
+      internalID: 6097727757953529922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: be happy_49
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9faa436016908f0800000000000000
+      internalID: -573820798231709240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

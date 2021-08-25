@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 2c147d96bb1d8104bb0dc2cb0caeee08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -660228502225486427
+    second: never gonna give you up_0
+  - first:
+      213: 6394242699158248272
+    second: never gonna give you up_1
+  - first:
+      213: 6577846220898295324
+    second: never gonna give you up_2
+  - first:
+      213: 4596299325111850697
+    second: never gonna give you up_3
+  - first:
+      213: 6908927074187206408
+    second: never gonna give you up_4
+  - first:
+      213: -5520142837380532156
+    second: never gonna give you up_5
+  - first:
+      213: 2503910246839646799
+    second: never gonna give you up_6
+  - first:
+      213: 570167988137087873
+    second: never gonna give you up_7
+  - first:
+      213: -92007078252683386
+    second: never gonna give you up_8
+  - first:
+      213: 1739091892570712869
+    second: never gonna give you up_9
+  - first:
+      213: -3896907059192246653
+    second: never gonna give you up_10
+  - first:
+      213: -7585137757804333010
+    second: never gonna give you up_11
+  - first:
+      213: -7740596329778005621
+    second: never gonna give you up_12
+  - first:
+      213: 8801513689539772407
+    second: never gonna give you up_13
+  - first:
+      213: 2430404911296621032
+    second: never gonna give you up_14
+  - first:
+      213: -461901450815122658
+    second: never gonna give you up_15
+  - first:
+      213: -4941168098010252076
+    second: never gonna give you up_16
+  - first:
+      213: -1536368488630551839
+    second: never gonna give you up_17
+  - first:
+      213: 8755608301153257277
+    second: never gonna give you up_18
+  - first:
+      213: 7843789863343660379
+    second: never gonna give you up_19
+  - first:
+      213: 4751206779474127097
+    second: never gonna give you up_20
+  - first:
+      213: 5039369727072619072
+    second: never gonna give you up_21
+  - first:
+      213: 6000976063259039569
+    second: never gonna give you up_22
+  - first:
+      213: -8649430175545586633
+    second: never gonna give you up_23
+  - first:
+      213: 7853054886029948979
+    second: never gonna give you up_24
+  - first:
+      213: 6320995139154526364
+    second: never gonna give you up_25
+  - first:
+      213: -9099345955150342143
+    second: never gonna give you up_26
+  - first:
+      213: -3364862399348817905
+    second: never gonna give you up_27
+  - first:
+      213: -3210572335561508347
+    second: never gonna give you up_28
+  - first:
+      213: 5255805897513834775
+    second: never gonna give you up_29
+  - first:
+      213: 2433843002662574178
+    second: never gonna give you up_30
+  - first:
+      213: 6615195588570126682
+    second: never gonna give you up_31
+  - first:
+      213: -666683472854898987
+    second: never gonna give you up_32
+  - first:
+      213: 2697592407193103690
+    second: never gonna give you up_33
+  - first:
+      213: 8842063177873183650
+    second: never gonna give you up_34
+  - first:
+      213: 8547414695614934557
+    second: never gonna give you up_35
+  - first:
+      213: 6650334997209774387
+    second: never gonna give you up_36
+  - first:
+      213: 1415697284062996249
+    second: never gonna give you up_37
+  - first:
+      213: 1479390653647002812
+    second: never gonna give you up_38
+  - first:
+      213: -5455440529195537250
+    second: never gonna give you up_39
+  - first:
+      213: 3793850297798504824
+    second: never gonna give you up_40
+  - first:
+      213: -8554630882874844254
+    second: never gonna give you up_41
+  - first:
+      213: -2666649734359171007
+    second: never gonna give you up_42
+  - first:
+      213: -5961129554859646025
+    second: never gonna give you up_43
+  - first:
+      213: -4202206066499481948
+    second: never gonna give you up_44
+  - first:
+      213: -5560186283689946384
+    second: never gonna give you up_45
+  - first:
+      213: -948735038190804007
+    second: never gonna give you up_46
+  - first:
+      213: -6527881279845937815
+    second: never gonna give you up_47
+  - first:
+      213: -4388199496182567452
+    second: never gonna give you up_48
+  - first:
+      213: 7614358877309805590
+    second: never gonna give you up_49
+  - first:
+      213: 8251463593863237718
+    second: never gonna give you up_50
+  - first:
+      213: -6523990338109444698
+    second: never gonna give you up_51
+  - first:
+      213: -3087097582521152011
+    second: never gonna give you up_52
+  - first:
+      213: 6594661180595151660
+    second: never gonna give you up_53
+  - first:
+      213: -9175181045330330906
+    second: never gonna give you up_54
+  - first:
+      213: 7835511642575211885
+    second: never gonna give you up_55
+  - first:
+      213: -5985853987882247774
+    second: never gonna give you up_56
+  - first:
+      213: -2913848558278937647
+    second: never gonna give you up_57
+  - first:
+      213: 1332613111406438594
+    second: never gonna give you up_58
+  - first:
+      213: 1099223842171096886
+    second: never gonna give you up_59
+  - first:
+      213: -2926930253413231950
+    second: never gonna give you up_60
+  - first:
+      213: 6838995276156432861
+    second: never gonna give you up_61
+  - first:
+      213: 6255993074100017800
+    second: never gonna give you up_62
+  - first:
+      213: 7732144332386863017
+    second: never gonna give you up_63
+  - first:
+      213: 7541344005021154192
+    second: never gonna give you up_64
+  - first:
+      213: -8214472359287019388
+    second: never gonna give you up_65
+  - first:
+      213: 8579573142018866601
+    second: never gonna give you up_66
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: never gonna give you up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3616
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adf24edca566d6f0800000000000000
+      internalID: -660228502225486427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_1
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3616
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b56f25bd9ecb850800000000000000
+      internalID: 6394242699158248272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_2
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 3616
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ed9c77944394b50800000000000000
+      internalID: 6577846220898295324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_3
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3616
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6d8aa42e559cf30800000000000000
+      internalID: 4596299325111850697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3390
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fd104a19071ef50800000000000000
+      internalID: 6908927074187206408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3390
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448348c16538463b0800000000000000
+      internalID: -5520142837380532156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_6
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 3390
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a765c6a1dafb220800000000000000
+      internalID: 2503910246839646799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_7
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3390
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183d53ba3c4a9e700800000000000000
+      internalID: 570167988137087873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3164
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f5defbc0029bef0800000000000000
+      internalID: -92007078252683386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3164
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6078bcde722810800000000000000
+      internalID: 1739091892570712869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_10
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 3164
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e42262da76be9c0800000000000000
+      internalID: -3896907059192246653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_11
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3164
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287ba5a56d2cb690800000000000000
+      internalID: -7585137757804333010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2938
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89b3e546a0e39490800000000000000
+      internalID: -7740596329778005621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2938
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff71c67112452a70800000000000000
+      internalID: 8801513689539772407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_14
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2938
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e92336d3688ab120800000000000000
+      internalID: 2430404911296621032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_15
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2938
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e135de6e31ff699f0800000000000000
+      internalID: -461901450815122658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3b965bc17d6bb0800000000000000
+      internalID: -4941168098010252076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea7217eff8bdaae0800000000000000
+      internalID: -1536368488630551839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_18
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3783b65c5b228970800000000000000
+      internalID: 8755608301153257277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2712
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d9861925dbadc60800000000000000
+      internalID: 7843789863343660379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8abf8946dafe140800000000000000
+      internalID: 4751206779474127097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_21
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a450a21107fe540800000000000000
+      internalID: 5039369727072619072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_22
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1575d2c5fefb74350800000000000000
+      internalID: 6000976063259039569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_23
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2486
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c8f0df41d07f780800000000000000
+      internalID: -8649430175545586633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338f573cfc7abfc60800000000000000
+      internalID: 7853054886029948979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_25
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c648c69fa8b750800000000000000
+      internalID: 6320995139154526364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_26
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10850ee6011a8b180800000000000000
+      internalID: -9099345955150342143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_27
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2260
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ceb0c97b9d41d0800000000000000
+      internalID: -3364862399348817905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50af82d9871c173d0800000000000000
+      internalID: -3210572335561508347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71917b90e9f50f840800000000000000
+      internalID: 5255805897513834775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_30
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d5ccd05fb6c120800000000000000
+      internalID: 2433843002662574178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_31
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2034
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591478c655edcb50800000000000000
+      internalID: 6615195588570126682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d62cd6e9e67fb6f0800000000000000
+      internalID: -666683472854898987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_33
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d298b7006cf6520800000000000000
+      internalID: 2697592407193103690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_34
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a351beec9155ba70800000000000000
+      internalID: 8842063177873183650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_35
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1808
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ee41821648e9670800000000000000
+      internalID: 8547414695614934557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339790ae17cba4c50800000000000000
+      internalID: 6650334997209774387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_37
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9176f0edd2195a310800000000000000
+      internalID: 1415697284062996249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_38
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc99aa16f9d78410800000000000000
+      internalID: 1479390653647002812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_39
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1582
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ce70c2eb16a44b0800000000000000
+      internalID: -5455440529195537250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8713a43ceb676a430800000000000000
+      internalID: 3793850297798504824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_41
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab98a15988d74980800000000000000
+      internalID: -8554630882874844254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_42
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140c123f1382efad0800000000000000
+      internalID: -2666649734359171007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_43
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1356
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b32286d040d54da0800000000000000
+      internalID: -5961129554859646025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae8e45c8d3cea5c0800000000000000
+      internalID: -4202206066499481948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_45
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f259abb80046d2b0800000000000000
+      internalID: -5560186283689946384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_46
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3aba6628a65d2f0800000000000000
+      internalID: -948735038190804007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_47
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1130
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d4cdaef8e4865a0800000000000000
+      internalID: -6527881279845937815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed6d72decbf913c0800000000000000
+      internalID: -4388199496182567452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_49
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614a46a6e03aba960800000000000000
+      internalID: 7614358877309805590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_50
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6505945ab66138270800000000000000
+      internalID: 8251463593863237718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_51
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 904
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade7e26a512675a0800000000000000
+      internalID: -6523990338109444698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd0cd6da1d6825d0800000000000000
+      internalID: -3087097582521152011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_53
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23ae6b5761f48b50800000000000000
+      internalID: 6594661180595151660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_54
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea303393753ba080800000000000000
+      internalID: -9175181045330330906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_55
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 678
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d022913545dbc60800000000000000
+      internalID: 7835511642575211885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a95cee2389fdeca0800000000000000
+      internalID: -5985853987882247774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_57
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ff7aac2eef87d0800000000000000
+      internalID: -2913848558278937647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_58
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8a86870946e7210800000000000000
+      internalID: 1332613111406438594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_59
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 452
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f8f31b24a314f00800000000000000
+      internalID: 1099223842171096886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d5fa21747167d0800000000000000
+      internalID: -2926930253413231950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_61
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1f0e718fdf8ee50800000000000000
+      internalID: 6838995276156432861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_62
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a19032e80c1d650800000000000000
+      internalID: 6255993074100017800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_63
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 226
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a708fbbd481e4b60800000000000000
+      internalID: 7732144332386863017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bbe44ba6c38a860800000000000000
+      internalID: 7541344005021154192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_65
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ae6f49e4500e80800000000000000
+      internalID: -8214472359287019388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: never gonna give you up_66
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 0
+        width: 1160
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad348ee054c01770800000000000000
+      internalID: 8579573142018866601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
