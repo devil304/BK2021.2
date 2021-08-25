@@ -1729,9 +1729,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpread: 0.2
   documentPrefabs:
-  - {fileID: 461396539348593840, guid: 6c5af676707ad044590f16609340224b, type: 3}
-  - {fileID: 4591572110716067517, guid: 0a5f2b5679287714d8e3e06023ca7466, type: 3}
-  - {fileID: 1488893341206249436, guid: 83127b6eb5cf4ef4ea9b5162ffdda23c, type: 3}
+  - {fileID: 4596925865156892469, guid: e148761de4439d94d95d41337d7ef2b0, type: 3}
+  - {fileID: 4596925865156892469, guid: a6d5e5390af20184b9e234ad7c48871e, type: 3}
+  - {fileID: 4596925865156892469, guid: ce910da19a43c294984f519e54a71d3c, type: 3}
+  - {fileID: 5822215972347578181, guid: 2a0ce9b80bf41d443ac915cf2d245ae2, type: 3}
+  - {fileID: 5822215972347578181, guid: 51572bc4a07b64e4ca32edaeb7adff3c, type: 3}
+  - {fileID: 5822215972347578181, guid: 2a89ae87b0b322f4d918e37341cea7dd, type: 3}
+  - {fileID: 5822215972347578181, guid: 962584f3e8c0ee3469ee7da1f8324dd4, type: 3}
+  - {fileID: 199953487113000965, guid: 6816869c9a610f24d8550db0b51d7d11, type: 3}
+  - {fileID: 199953487113000965, guid: c48bf5f0f4d2fc14da5bd4a8f3b694ee, type: 3}
+  - {fileID: 199953487113000965, guid: 742062a5bf655d04ab05e1a204c4e762, type: 3}
   currentDocZPos: 0
   stationAText: {fileID: 399748335}
   stationASpriteRend: {fileID: 882857112}
