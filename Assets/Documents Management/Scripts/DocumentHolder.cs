@@ -50,6 +50,7 @@ public class DocumentHolder : MonoBehaviour
         get => bossDocuments;
         set
         {
+            if (value > 5) QuoteScript.FullFolder();
             bossDocuments = Mathf.Clamp(value, 0, 5);
             for (int i = 0; i <= 5; i++)
             {
@@ -122,12 +123,20 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Frustration.Value += 0.1f);
+                RemoveUpper(() =>
+                {
+                    Frustration.Value += 0.1f;
+                    QuoteScript.IncorrectlyStamped();
+                });
             }
         }
         else
         {
-            RemoveUpper(() => Frustration.Value += 0.1f);
+            RemoveUpper(() =>
+            {
+                Frustration.Value += 0.1f;
+                QuoteScript.IncorrectFolder();
+            });
         }
     }
 
@@ -143,12 +152,20 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Frustration.Value += 0.1f);
+                RemoveUpper(() =>
+                {
+                    Frustration.Value += 0.1f;
+                    QuoteScript.IncorrectlyStamped();
+                });
             }
         }
         else
         {
-            RemoveUpper(() => Frustration.Value += 0.1f);
+            RemoveUpper(() =>
+            {
+                Frustration.Value += 0.1f;
+                QuoteScript.IncorrectFolder();
+            });
         }
     }
 
@@ -164,12 +181,20 @@ public class DocumentHolder : MonoBehaviour
             }
             else
             {
-                RemoveUpper(() => Frustration.Value += 0.1f);
+                RemoveUpper(() =>
+                {
+                    Frustration.Value += 0.1f;
+                    QuoteScript.IncorrectlyStamped();
+                });
             }
         }
         else
         {
-            RemoveUpper(() => Frustration.Value += 0.1f);
+            RemoveUpper(() =>
+            {
+                Frustration.Value += 0.1f;
+                QuoteScript.IncorrectFolder();
+            });
         }
     }
 
