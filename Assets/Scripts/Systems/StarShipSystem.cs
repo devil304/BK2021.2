@@ -26,7 +26,8 @@ public class StarShipSystem : SystemBase
     protected override void OnUpdate()
     {
         var singleton = GetSingleton<SingletonData>();
-        singleton.DeltaTime = Time.DeltaTime;
+        singleton.DeltaTime = (float)Time.ElapsedTime-singleton.ElapsedTime;
+        singleton.ElapsedTime = (float)Time.ElapsedTime;
         Entities.ForEach((ref Rotation r, ref PhysicsVelocity vel, in StarShipData SSD, in Translation t) => {
             vel.Angular = float3.zero;
             r.Value = quaternion.identity;

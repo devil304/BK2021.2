@@ -28,16 +28,16 @@ public class InfinityMapSystem : SystemBase
 
             Entities.WithNone<StarShipData>().ForEach((ref Translation t) =>
             {
-                if (Vector2.Distance((Vector3)(PlayerPos * -1 + offset), (Vector3)t.Value) < 5)
+                if (Vector2.Distance((Vector3)(PlayerPos * -1 + offset), (Vector3)t.Value) < 10)
                 {
                     t.Value += new float3(1000, 1000, 0);
                 }
                 float3 tmpPlayerPos = singleton.PlayerPos * -1 + offset;
-                if (Vector2.Distance((Vector3)PlayerPos, (Vector3)t.Value) < 5)
+                if (Vector2.Distance((Vector3)PlayerPos, (Vector3)t.Value) < 10)
                 {
                     t.Value = (t.Value - PlayerPos) + tmpPlayerPos;
                 }
-                if (Vector2.Distance((Vector3)(PlayerPos * -1 + offset) + ((Vector3)new float3(1000, 1000, 0)), (Vector3)t.Value) < 5)
+                if (Vector2.Distance((Vector3)(PlayerPos * -1 + offset) + ((Vector3)new float3(1000, 1000, 0)), (Vector3)t.Value) < 10)
                 {
                     t.Value -= new float3(1000, 1000, 0);
                     t.Value.x *= -1;
@@ -47,7 +47,7 @@ public class InfinityMapSystem : SystemBase
             }).WithBurst().ScheduleParallel();
 
             Entities.WithAny<StarShipData>().ForEach((ref Translation t) => {
-                if (Vector2.Distance((Vector3)PlayerPos, (Vector3)t.Value) < 5)
+                if (Vector2.Distance((Vector3)PlayerPos, (Vector3)t.Value) < 10)
                 {
                     t.Value.x *= -1;
                     t.Value.y *= -1;
