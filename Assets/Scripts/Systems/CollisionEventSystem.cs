@@ -23,15 +23,22 @@ public class CollisionEventSystem : SystemBase
 
     protected override void OnUpdate()
     {
-        /*Dependency = new EntityCollision
+        Dependency = new EntityCollision
         {
-            
-        }.Schedule(SPW.Simulation, ref BPW.PhysicsWorld, Dependency);*/
+            AsteroidsGroup = GetComponentDataFromEntity<AsteroidTag>(true),
+            PapersGroup = GetComponentDataFromEntity<PapersData>(),
+            StarShip = GetComponentDataFromEntity<StarShipData>(),
+            StationsGroup = GetComponentDataFromEntity<StationData>()
+        }.Schedule(SPW.Simulation, ref BPW.PhysicsWorld, Dependency);
     }
 
     [BurstCompile]
     struct EntityCollision : ICollisionEventsJob
     {
+        [ReadOnly] public ComponentDataFromEntity<AsteroidTag> AsteroidsGroup;
+        public ComponentDataFromEntity<PapersData> PapersGroup;
+        public ComponentDataFromEntity<StarShipData> StarShip;
+        public ComponentDataFromEntity<StationData> StationsGroup;
         public void Execute(CollisionEvent collisionEvent)
         {
 

@@ -12,7 +12,7 @@ public class RandomVelSystem : SystemBase
 {
     protected override void OnStartRunning()
     {
-        Entities.WithNone<StarShipData>().ForEach((Entity e, int entityInQueryIndex, ref PhysicsVelocity PV)=> {
+        Entities.WithAll<AsteroidTag>().ForEach((Entity e, int entityInQueryIndex, ref PhysicsVelocity PV)=> {
             Random rand = Random.CreateFromIndex((uint)entityInQueryIndex);
             //PV.Linear = rand.NextFloat3(new float3(-1f,-1f,0), new float3(1f,1f,0));
         }).WithBurst().ScheduleParallel();

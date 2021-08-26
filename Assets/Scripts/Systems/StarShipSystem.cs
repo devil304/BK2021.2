@@ -6,10 +6,12 @@ using UnityEngine;
 using Unity.Transforms;
 using Random = Unity.Mathematics.Random;
 using Unity.Burst;
+using Unity.Collections;
 
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
 public class StarShipSystem : SystemBase
 {
+
     protected override void OnStartRunning()
     {
         var singleton = GetSingleton<SingletonData>();
@@ -18,7 +20,7 @@ public class StarShipSystem : SystemBase
             singleton.maxX = SSD.maxX;
             singleton.maxY = SSD.maxY;
         }).WithBurst().Run();
-        SetSingleton<SingletonData>(singleton);
+        SetSingleton(singleton);
     }
 
     protected override void OnUpdate()
@@ -45,5 +47,9 @@ public class StarShipSystem : SystemBase
         }).WithBurst().Run();
         Dependency.Complete();
         SetSingleton(singleton);
+
+        Entities.ForEach((in ExchangeData ED) => {
+            ED.EMDE.SD = singleton;
+        }).WithoutBurst().Run();
     }
 }
