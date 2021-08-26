@@ -38,10 +38,7 @@ public class StationsSystem : SystemBase
                     //Passed station with papers
                 }
             }
-            if (SD.ThisStationType == StationTypes.FirstStation)
-                PV.Angular = new float3(0,0,1);
-            else
-                PV.Angular = float3.zero;
+            PV.Angular = new float3(0,1,0);
             SD.TimeLeftToTeleport -= singleton.DeltaTime;
             if (SD.TimeLeftToTeleport <= 0)
             {
