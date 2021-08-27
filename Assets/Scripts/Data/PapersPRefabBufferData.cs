@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Entities;
 
+[InternalBufferCapacity(4)]
 [GenerateAuthoringComponent]
-public class ExchangeData : IComponentData
+public struct PapersPRefabBufferData : IBufferElementData
 {
-    public ECS_MB_DataExchange EMDE;
-    public int angriness;
+    public Entity Value;
 }

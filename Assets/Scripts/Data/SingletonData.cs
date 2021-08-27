@@ -11,5 +11,9 @@ public struct SingletonData : IComponentData
     public float DeltaTime, ElapsedTime;
     public float3 PlayerPos;
     public float maxX, maxY;
-    public int Station1Papers, Station2Papers;
+    public int Station1Papers, Station2Papers, TrashPapers, BossPapers;
+    public int angriness;
+
+    public float3 closestStation;
+    public StationTypes closestStationType;
 }

@@ -26,16 +26,22 @@ public class StationsSystem : SystemBase
     {
         var singleton = GetSingleton<SingletonData>();
         Entities.ForEach((ref PhysicsVelocity PV, ref Translation t, ref StationData SD)=> {
-            float dist = Vector2.Distance((Vector3)t.Value, (Vector3)singleton.PlayerPos);
-            if(!SD.passing && dist <= 6.5f)
+            float dist = math.distance(t.Value, singleton.PlayerPos);
+            if(!SD.passing && dist <= 10f)
                 SD.passing = true;
-            else if(SD.passing && dist > 6.5f)
+            else if(SD.passing && dist > 10f)
             {
                 SD.passing = false;
-                if ((SD.ThisStationType == StationTypes.FirstStation && singleton.Station1Papers != 0) ||
-                (SD.ThisStationType == StationTypes.SecondStation && singleton.Station2Papers != 0))
+                switch (SD.ThisStationType)
                 {
-                    //Passed station with papers
+                    case StationTypes.FirstStation:
+                        if (singleton.Station1Papers > 0)
+                            singleton.angriness += singleton.Station1Papers;
+                        break;
+                    case StationTypes.SecondStation:
+                        if (singleton.Station2Papers > 0)
+                            singleton.angriness += singleton.Station2Papers;
+                        break;
                 }
             }
             PV.Angular = new float3(0,1,0);
@@ -48,6 +54,9 @@ public class StationsSystem : SystemBase
             else
                 SD.TimeLeftToTeleport -= singleton.DeltaTime;
         }).WithBurst().Schedule();
+        Dependency.Complete();
+
+        SetSingleton(singleton);
     }
 
     static void TeleportInFrontOfSS(float dist, SingletonData singleton,ref Translation t,ref Random r)
