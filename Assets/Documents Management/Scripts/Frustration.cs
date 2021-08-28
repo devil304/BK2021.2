@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class Frustration : MonoBehaviour
 {
@@ -42,6 +43,9 @@ public class Frustration : MonoBehaviour
     {
         endGroup.DOFade(1f, 0.5f);
         yield return new WaitForSeconds(2f);
-        Unity.Entities.World.DisposeAllWorlds();
+        var entityManager = Unity.Entities.World.All[0].EntityManager;
+        foreach (var e in entityManager.GetAllEntities())
+            entityManager.DestroyEntity(e);
+        SceneManager.LoadScene("Menu");
     }
 }
