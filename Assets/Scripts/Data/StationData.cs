@@ -13,6 +13,7 @@ public struct StationData : IComponentData
     public float TimeLeftToTeleport;
     [HideInInspector] public Random rand;
     public bool passing;
+    public int angriness;
 }
 
 public enum StationTypes { FirstStation, SecondStation, Coffie };
