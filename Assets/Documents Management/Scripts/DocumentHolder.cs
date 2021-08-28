@@ -43,15 +43,17 @@ public class DocumentHolder : MonoBehaviour
         }
     }
 
+    [SerializeField] float bossLowerTimer = 10f;
+    float currectBossLowerTimer = 0f;
     public Transform bossIndicator;
     int bossDocuments = 0;
-    public int BossBDocuments
+    public int BossDocuments
     {
         get => bossDocuments;
         set
         {
             if (value > 5) QuoteScript.FullFolder();
-            bossDocuments = Mathf.Clamp(value, 0, 5);
+            bossDocuments = Mathf.Clamp(value, 1, 5);
             for (int i = 0; i <= 5; i++)
             {
                 bossIndicator.GetChild(i).gameObject.SetActive(i <= bossDocuments);
@@ -62,21 +64,29 @@ public class DocumentHolder : MonoBehaviour
     public Vector3 GetRandomDocumentPosition() =>
             transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
 
-    IEnumerator Start()
+    void Awake()
     {
         StationADocuments = 0;
         StationBDocuments = 0;
-        BossBDocuments = 0;
-        while (true)
-        {
-            SpawnDocument(documentPrefabs[Random.Range(0, documentPrefabs.Count)]);
-            yield return new WaitForSeconds(4f);
-        }
+        BossDocuments = 3;
+        currectBossLowerTimer = bossLowerTimer;
     }
 
     void Update()
     {
         if (transform.childCount != 0) transform.GetChild(0).GetComponent<HoldScript>().enabled = true;
+
+        if (currectBossLowerTimer <= 0f)
+        {
+            currectBossLowerTimer = bossLowerTimer;
+            BossDocuments -= 1;
+        }
+        else currectBossLowerTimer -= Time.deltaTime;
+
+        if (bossDocuments == 1 || bossDocuments == 5)
+        {
+            Frustration.Value += 0.025f * Time.deltaTime;
+        }
     }
 
     public void SpawnDocument(GameObject document)
@@ -177,7 +187,7 @@ public class DocumentHolder : MonoBehaviour
         {
             if (doc.GetComponents<Collider2D>().Length == 1)
             {
-                RemoveUpper(() => BossBDocuments++);
+                RemoveUpper(() => BossDocuments++);
             }
             else
             {
