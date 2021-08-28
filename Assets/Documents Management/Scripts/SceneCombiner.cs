@@ -27,7 +27,6 @@ public class SceneCombiner : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(SceneManager.GetActiveScene().name);
         var dataExchange = FindObjectOfType<ECS_MB_DataExchange>();
         if (dataExchange == null) return;
         var sd = dataExchange.SD;

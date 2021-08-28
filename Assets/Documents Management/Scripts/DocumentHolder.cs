@@ -171,6 +171,7 @@ public class DocumentHolder : MonoBehaviour
                 {
                     Frustration.Value += 0.1f;
                     QuoteScript.IncorrectlyStamped();
+                    FindObjectOfType<SoundsScript>().BeepBoop();
                 });
             }
         }
@@ -180,6 +181,7 @@ public class DocumentHolder : MonoBehaviour
             {
                 Frustration.Value += 0.1f;
                 QuoteScript.IncorrectFolder();
+                FindObjectOfType<SoundsScript>().BeepBoop();
             });
         }
     }
@@ -200,6 +202,7 @@ public class DocumentHolder : MonoBehaviour
                 {
                     Frustration.Value += 0.1f;
                     QuoteScript.IncorrectlyStamped();
+                    FindObjectOfType<SoundsScript>().BeepBoop();
                 });
             }
         }
@@ -209,6 +212,7 @@ public class DocumentHolder : MonoBehaviour
             {
                 Frustration.Value += 0.1f;
                 QuoteScript.IncorrectFolder();
+                FindObjectOfType<SoundsScript>().BeepBoop();
             });
         }
     }
@@ -229,6 +233,7 @@ public class DocumentHolder : MonoBehaviour
                 {
                     Frustration.Value += 0.1f;
                     QuoteScript.IncorrectlyStamped();
+                    FindObjectOfType<SoundsScript>().BeepBoop();
                 });
             }
         }
@@ -238,6 +243,7 @@ public class DocumentHolder : MonoBehaviour
             {
                 Frustration.Value += 0.1f;
                 QuoteScript.IncorrectFolder();
+                FindObjectOfType<SoundsScript>().BeepBoop();
             });
         }
     }

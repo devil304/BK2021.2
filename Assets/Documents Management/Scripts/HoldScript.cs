@@ -68,11 +68,16 @@ public class HoldScript : MonoBehaviour
                 position.z = baseZPos;
                 transform.position = position;
 
-                if (documents != null) documents.Stamp(collider, stampMarkPrefabs[Random.Range(0, stampMarkPrefabs.Count)]);
+                if (documents != null)
+                {
+                    FindObjectOfType<SoundsScript>().Stamp();
+                    documents.Stamp(collider, stampMarkPrefabs[Random.Range(0, stampMarkPrefabs.Count)]);
+                }
 
                 if (sendToButtons)
                 {
                     if (!FindObjectOfType<ButtonsScript>().Press(gameObject, pos)) RevertHoldModifiers();
+                    else FindObjectOfType<SoundsScript>().Papers();
                 }
                 else RevertHoldModifiers();
             }
