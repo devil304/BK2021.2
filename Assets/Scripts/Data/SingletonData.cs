@@ -14,6 +14,8 @@ public struct SingletonData : IComponentData
     public int Station1Papers, Station2Papers, TrashPapers, BossPapers;
     public int Station1PapersR, Station2PapersR;
     public int angriness;
+
+    public int Papers1Collected, Papers2Collected;
     //public float angrinessTmp;
 
     public bool clicked;

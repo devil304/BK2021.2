@@ -139,7 +139,10 @@ public class StarShipSystem : SystemBase
                 {
                     case StationTypes.FirstStation:
                         if (singleton.Station1PapersR > 0)
+                        {
+                            singleton.Papers1Collected += singleton.Station1PapersR;
                             singleton.Station1PapersR = 0;
+                        }
                         else
                         {
                             singleton.angriness += 10;
@@ -147,7 +150,10 @@ public class StarShipSystem : SystemBase
                         break;
                     case StationTypes.SecondStation:
                         if (singleton.Station2PapersR > 0)
+                        {
+                            singleton.Papers2Collected += singleton.Station2PapersR;
                             singleton.Station2PapersR = 0;
+                        }
                         else
                         {
                             singleton.angriness += 10;
