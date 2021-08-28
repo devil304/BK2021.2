@@ -8,6 +8,7 @@ using Unity.Mathematics;
 using Random = Unity.Mathematics.Random;
 
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
+[UpdateAfter(typeof(StarShipSystem))]
 public class StationsSystem : SystemBase
 {
 
@@ -25,7 +26,7 @@ public class StationsSystem : SystemBase
     protected override void OnUpdate()
     {
         var singleton = GetSingleton<SingletonData>();
-        Entities.ForEach((ref PhysicsVelocity PV, ref Translation t, ref StationData SD)=> {
+        Dependency = Entities.ForEach((ref PhysicsVelocity PV, ref Translation t, ref StationData SD)=> {
             float dist = math.distance(t.Value, singleton.PlayerPos);
             if(!SD.passing && dist <= 10f)
                 SD.passing = true;
@@ -36,11 +37,11 @@ public class StationsSystem : SystemBase
                 {
                     case StationTypes.FirstStation:
                         if (singleton.Station1Papers > 0)
-                            singleton.angriness += singleton.Station1Papers;
+                            SD.angriness += singleton.Station1Papers;
                         break;
                     case StationTypes.SecondStation:
                         if (singleton.Station2Papers > 0)
-                            singleton.angriness += singleton.Station2Papers;
+                            SD.angriness += singleton.Station2Papers;
                         break;
                 }
             }
@@ -53,7 +54,7 @@ public class StationsSystem : SystemBase
             }
             else
                 SD.TimeLeftToTeleport -= singleton.DeltaTime;
-        }).WithBurst().Schedule();
+        }).WithBurst().Schedule(Dependency);
         Dependency.Complete();
 
         SetSingleton(singleton);

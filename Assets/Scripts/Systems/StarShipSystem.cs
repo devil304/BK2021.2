@@ -32,6 +32,7 @@ public class StarShipSystem : SystemBase
             dynamicBuffer.Add(new PapersPRefabBufferData { Value = SSD.trash });
             dynamicBuffer.Add(new PapersPRefabBufferData { Value = SSD.boss });
         }).WithBurst().Run();
+        singleton.closestStation = new float3(float.MaxValue, float.MaxValue, 0);
         SetSingleton(singleton);
 
         BIECommandBuffer.AddJobHandleForProducer(Dependency);
@@ -41,17 +42,17 @@ public class StarShipSystem : SystemBase
     {
         var commandBuffer = BIECommandBuffer.CreateCommandBuffer();
         var singleton = GetSingleton<SingletonData>();
-        if(math.distance(singleton.PlayerPos, singleton.closestStation) >= 4)
-            singleton.closestStation = new float3(float.MaxValue, float.MaxValue, 0);
 
-        Entities.WithAll<StationData>().ForEach((in StationData SD, in Translation st) => {
+        Entities.WithAll<StationData>().ForEach((ref StationData SD, in Translation st) => {
             if (math.distance(singleton.PlayerPos, st.Value) < math.distance(singleton.PlayerPos, singleton.closestStation))
             {
                 singleton.closestStation = st.Value;
                 singleton.closestStationType = SD.ThisStationType;
             }
+            singleton.angriness += SD.angriness;
+            SD.angriness = 0;
         }).WithBurst().Run();
-        Dependency.Complete();
+        //Dependency.Complete();
 
         singleton.DeltaTime = (float)Time.ElapsedTime-singleton.ElapsedTime;
         singleton.ElapsedTime = (float)Time.ElapsedTime;
@@ -108,8 +109,9 @@ public class StarShipSystem : SystemBase
                 vel.Linear.x = 0;
             singleton.PlayerPos = t.Value;
 
-            if (Input.GetKeyDown(KeyCode.E) && math.distance(singleton.PlayerPos, singleton.closestStation)<4)
+            if (!SSD.clicked && Input.GetKeyDown(KeyCode.E) && math.distance(singleton.PlayerPos, singleton.closestStation)<4)
             {
+                SSD.clicked = true;
                 switch (singleton.closestStationType)
                 {
                     case StationTypes.FirstStation:
@@ -133,8 +135,9 @@ public class StarShipSystem : SystemBase
                         break;
                 }
             }
+            if (math.distance(singleton.PlayerPos, singleton.closestStation) >= 4)
+                singleton.closestStation = new float3(float.MaxValue, float.MaxValue, 0);
         }).WithBurst().Run();
-        Dependency.Complete();
 
         SetSingleton(singleton);
 
@@ -142,9 +145,18 @@ public class StarShipSystem : SystemBase
             if(ED.EMDE.SD.angriness == 0)
             {
                 singleton.angriness -= ED.angriness;
+                singleton.Station1Papers -= ED.Papers1;
+                singleton.Station2Papers -= ED.Papers2;
+                singleton.TrashPapers -= ED.PapersT;
+                singleton.BossPapers -= ED.PapersB;
             }
             ED.EMDE.SD = singleton;
             ED.angriness = singleton.angriness;
+            ED.angriness = singleton.angriness;
+            ED.Papers1 = singleton.Station1Papers;
+            ED.Papers2 = singleton.Station2Papers;
+            ED.PapersT = singleton.TrashPapers;
+            ED.PapersB = singleton.BossPapers;
         }).WithoutBurst().Run();
 
         SetSingleton(singleton);

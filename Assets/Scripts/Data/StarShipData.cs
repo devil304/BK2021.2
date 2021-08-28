@@ -14,4 +14,5 @@ public struct StarShipData : IComponentData
     public float timer;
     public float3 pointOne, pointTwo;
     public Entity paper1, paper2, trash, boss;
+    public bool clicked;
 }
