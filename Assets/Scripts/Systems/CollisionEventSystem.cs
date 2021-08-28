@@ -43,6 +43,7 @@ public class CollisionEventSystem : SystemBase
     protected override void OnUpdate()
     {
         var ss = SS;
+        var Singleton = GetSingleton<SingletonData>();
         var commandBuffer = BIECommandBuffer.CreateCommandBuffer();
         Dependency = new EntityCollision
         {
@@ -52,6 +53,7 @@ public class CollisionEventSystem : SystemBase
             StationsGroup = GetComponentDataFromEntity<StationData>(),
             LapkiGroup = GetComponentDataFromEntity<LapkiTag>(),
             ECB = commandBuffer,
+            singleton = Singleton,
             SD = ss
         }.Schedule(SPW.Simulation, ref BPW.PhysicsWorld, Dependency);
         Dependency.Complete();
@@ -67,16 +69,17 @@ public class CollisionEventSystem : SystemBase
         public ComponentDataFromEntity<StationData> StationsGroup;
         public ComponentDataFromEntity<LapkiTag> LapkiGroup;
         public Entity SD;
+        public SingletonData singleton;
         public EntityCommandBuffer ECB;
 
         public void Execute(CollisionEvent collisionEvent)
         {
             if((StarShip.HasComponent(collisionEvent.EntityA)|| StarShip.HasComponent(collisionEvent.EntityB)))
             {
-                if ((!PapersGroup.HasComponent(collisionEvent.EntityA) && !PapersGroup.HasComponent(collisionEvent.EntityB)))
+                if ((AsteroidsGroup.HasComponent(collisionEvent.EntityA) && AsteroidsGroup.HasComponent(collisionEvent.EntityB)))
                 {
                     var tmp = StarShip[SD];
-                    tmp.angrinessTmp += 1;
+                    tmp.angrinessTmp += singleton.DeltaTime*5;
                     StarShip[SD] = tmp;
                 }
             }

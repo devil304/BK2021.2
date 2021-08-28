@@ -10,6 +10,8 @@ public class FollowEntity : MonoBehaviour
 
     public EntityManager EManager;
 
+    [SerializeField] Vector3 offset;
+
     void LateUpdate()
     {
         try
@@ -17,7 +19,7 @@ public class FollowEntity : MonoBehaviour
             if (EManager.Exists(entityToFollow))
             {
                 Translation entityTrans = EManager.GetComponentData<Translation>(entityToFollow);
-                Vector3 EPos = entityTrans.Value;
+                Vector3 EPos = (Vector3)entityTrans.Value-offset;
                 EPos.z = transform.position.z;
                 transform.position = EPos;
             }
