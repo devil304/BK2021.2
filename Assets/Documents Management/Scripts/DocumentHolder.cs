@@ -10,6 +10,9 @@ public class DocumentHolder : MonoBehaviour
     [SerializeField] float maxSpread = 0f;
     [SerializeField] List<GameObject> documentPrefabs;
 
+    [SerializeField] TextMeshProUGUI totalText;
+    [SerializeField] TextMeshProUGUI totalText2;
+
     public int currentDocZPos = 0;
 
     public TextMeshProUGUI stationAText;
@@ -51,6 +54,7 @@ public class DocumentHolder : MonoBehaviour
     float currectBossLowerTimer = 0f;
     public Transform bossIndicator;
     int bossDocuments = 0;
+    int bossDocumentsCollected = 0;
     public int BossDocuments
     {
         get => bossDocuments;
@@ -66,6 +70,8 @@ public class DocumentHolder : MonoBehaviour
         }
     }
 
+    public int TotalDocumentsCollected => stationADocumentsCollected + stationBDocumentsCollected + bossDocumentsCollected;
+
     public Vector3 GetRandomDocumentPosition() =>
             transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
 
@@ -79,6 +85,7 @@ public class DocumentHolder : MonoBehaviour
 
     public void UpdatePapersCollected()
     {
+        // For the side effects
         StationADocuments = StationADocuments;
         StationBDocuments = StationBDocuments;
     }
@@ -98,6 +105,11 @@ public class DocumentHolder : MonoBehaviour
         {
             Frustration.Value += 0.025f * Time.deltaTime;
         }
+
+        totalText.text = TotalDocumentsCollected.ToString();
+        totalText2.text = TotalDocumentsCollected.ToString();
+
+        // if (Frustration.Value) 
     }
 
     IEnumerator HandleEye()
@@ -209,7 +221,7 @@ public class DocumentHolder : MonoBehaviour
         {
             if (doc.GetComponents<Collider2D>().Length == 1)
             {
-                RemoveUpper(() => BossDocuments++);
+                RemoveUpper(() => { BossDocuments++; bossDocumentsCollected++; });
             }
             else
             {

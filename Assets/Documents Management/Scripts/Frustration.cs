@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Frustration : MonoBehaviour
 {
     [SerializeField] GameObject mask;
+    [SerializeField] CanvasGroup endGroup;
 
     float value = 0f;
 
@@ -28,5 +30,18 @@ public class Frustration : MonoBehaviour
         var pos = mask.transform.position;
         pos.y = Mathf.MoveTowards(pos.y, Mathf.Lerp(-10, 0, value), 3 * Time.deltaTime);
         mask.transform.position = pos;
+
+        if (Value >= 1f)
+        {
+            enabled = false;
+            StartCoroutine(EndGame());
+        }
+    }
+
+    IEnumerator EndGame()
+    {
+        endGroup.DOFade(1f, 0.5f);
+        yield return new WaitForSeconds(2f);
+        Unity.Entities.World.DisposeAllWorlds();
     }
 }
