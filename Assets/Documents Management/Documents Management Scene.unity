@@ -1780,6 +1780,7 @@ MonoBehaviour:
   stationBSpriteRend: {fileID: 1278094956}
   stationBSprite: {fileID: 21300000, guid: 43d7e2ac4df50f84093a54fbc1e20ee8, type: 3}
   stationBAltSprite: {fileID: 21300000, guid: 51b58ff7e37432944919e3ae472181b6, type: 3}
+  bossLowerTimer: 13
   bossIndicator: {fileID: 1196797917}
 --- !u!114 &1162828896
 MonoBehaviour:
