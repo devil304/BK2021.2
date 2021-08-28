@@ -15,13 +15,19 @@ public class SceneCombiner : MonoBehaviour
     public int documentsAToUpdate = 0;
     public int documentsBToUpdate = 0;
 
-    void Start()
+    void Awake()
     {
         SceneManager.LoadScene(spaceScene, LoadSceneMode.Additive);
     }
 
+    void Start()
+    {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(spaceScene));
+    }
+
     void Update()
     {
+        Debug.Log(SceneManager.GetActiveScene().name);
         var dataExchange = FindObjectOfType<ECS_MB_DataExchange>();
         if (dataExchange == null) return;
         var sd = dataExchange.SD;
