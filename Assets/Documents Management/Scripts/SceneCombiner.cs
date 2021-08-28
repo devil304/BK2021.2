@@ -12,6 +12,9 @@ public class SceneCombiner : MonoBehaviour
     [SerializeField] List<GameObject> bossPrefabs;
     [SerializeField] List<GameObject> trashPrefabs;
 
+    public int documentsAToUpdate = 0;
+    public int documentsBToUpdate = 0;
+
     void Start()
     {
         SceneManager.LoadScene(spaceScene, LoadSceneMode.Additive);
@@ -36,6 +39,17 @@ public class SceneCombiner : MonoBehaviour
         sd.TrashPapers = 0;
         sd.angriness = 0;
 
+        sd.Station1PapersR += documentsAToUpdate;
+        sd.Station2PapersR += documentsBToUpdate;
+
+        documentsAToUpdate = 0;
+        documentsBToUpdate = 0;
+
+        documents.stationADocumentsCollected = sd.Papers1Collected;
+        documents.stationBDocumentsCollected = sd.Papers2Collected;
+
         dataExchange.SD = sd;
+
+        documents.UpdatePapersCollected();
     }
 }

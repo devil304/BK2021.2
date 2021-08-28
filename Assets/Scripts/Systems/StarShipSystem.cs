@@ -180,6 +180,10 @@ public class StarShipSystem : SystemBase
                 singleton.TrashPapers -= ED.PapersT;
                 singleton.BossPapers -= ED.PapersB;
             }
+
+            singleton.Station1PapersR += ED.EMDE.SD.Station1PapersR;
+            singleton.Station2PapersR += ED.EMDE.SD.Station2PapersR;
+
             ED.EMDE.SD = singleton;
             ED.angriness = singleton.angriness;
             ED.angriness = singleton.angriness;
@@ -187,9 +191,8 @@ public class StarShipSystem : SystemBase
             ED.Papers2 = singleton.Station2Papers;
             ED.PapersT = singleton.TrashPapers;
             ED.PapersB = singleton.BossPapers;
-            singleton.Station1PapersR += ED.EMDE.SD.Station1PapersR;
+            
             ED.EMDE.SD.Station1PapersR = 0;
-            singleton.Station2PapersR += ED.EMDE.SD.Station2PapersR;
             ED.EMDE.SD.Station2PapersR = 0;
         }).WithoutBurst().Run();
 

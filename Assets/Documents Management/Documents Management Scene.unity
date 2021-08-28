@@ -1748,6 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6af67ad9d2c7bd94b96d2c8681de8537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneCombiner: {fileID: 1658546118}
   maxSpread: 0.2
   documentPrefabs:
   - {fileID: 4596925865156892469, guid: e148761de4439d94d95d41337d7ef2b0, type: 3}
@@ -1776,11 +1777,13 @@ MonoBehaviour:
   stationASpriteRend: {fileID: 882857112}
   stationASprite: {fileID: 21300000, guid: 81030b2e84d79aa4d9a4a019a07c1300, type: 3}
   stationAAltSprite: {fileID: 21300000, guid: e37830726ddd8cf49b7c33f7e2971c1a, type: 3}
+  stationADocumentsCollected: 0
   stationBText: {fileID: 540102606}
   stationBSpriteRend: {fileID: 1278094956}
   stationBSprite: {fileID: 21300000, guid: 43d7e2ac4df50f84093a54fbc1e20ee8, type: 3}
   stationBSpriteClosedEye: {fileID: 21300000, guid: d86df79d690038e4a80d7fdd75ebd9e6, type: 3}
   stationBAltSprite: {fileID: 21300000, guid: 51b58ff7e37432944919e3ae472181b6, type: 3}
+  stationBDocumentsCollected: 0
   bossLowerTimer: 13
   bossIndicator: {fileID: 1196797917}
 --- !u!114 &1162828896
@@ -2469,6 +2472,8 @@ MonoBehaviour:
   - {fileID: 4820437270045492373, guid: d3b7749bf1bfd5d449cd79e080397cbe, type: 3}
   - {fileID: 4820437270045492373, guid: 56e97285d9c860440b0e9298a095caf4, type: 3}
   - {fileID: 4820437270045492373, guid: 9fa2794317edb904aa086d9a4857d220, type: 3}
+  documentsAToUpdate: 0
+  documentsBToUpdate: 0
 --- !u!1 &1847084101
 GameObject:
   m_ObjectHideFlags: 0

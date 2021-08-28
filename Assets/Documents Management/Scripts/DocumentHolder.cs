@@ -6,6 +6,7 @@ using TMPro;
 
 public class DocumentHolder : MonoBehaviour
 {
+    [SerializeField] SceneCombiner sceneCombiner;
     [SerializeField] float maxSpread = 0f;
     [SerializeField] List<GameObject> documentPrefabs;
 
@@ -16,14 +17,15 @@ public class DocumentHolder : MonoBehaviour
     public Sprite stationASprite;
     public Sprite stationAAltSprite;
     int stationADocuments = 0;
+    public int stationADocumentsCollected = 0;
     public int StationADocuments
     {
         get => stationADocuments;
         set
         {
             stationADocuments = value;
-            stationAText.text = stationADocuments.ToString();
-            stationASpriteRend.sprite = stationADocuments == 0 ? stationAAltSprite : stationASprite;
+            stationAText.text = (stationADocuments - stationADocumentsCollected).ToString();
+            stationASpriteRend.sprite = (stationADocuments - stationADocumentsCollected) == 0 ? stationAAltSprite : stationASprite;
         }
     }
 
@@ -33,16 +35,15 @@ public class DocumentHolder : MonoBehaviour
     public Sprite stationBSpriteClosedEye;
     public Sprite stationBAltSprite;
     int stationBDocuments = 0;
+    public int stationBDocumentsCollected = 0;
     public int StationBDocuments
     {
         get => stationBDocuments;
         set
         {
             stationBDocuments = value;
-            stationBText.text = stationBDocuments.ToString();
-            if (stationBDocuments != 0) StartCoroutine(HandleEye());
-            else StopCoroutine(nameof(HandleEye));
-            stationBSpriteRend.sprite = stationBDocuments == 0 ? stationBAltSprite : stationBSprite;
+            stationBText.text = (stationBDocuments - stationBDocumentsCollected).ToString();
+            stationBSpriteRend.sprite = (stationBDocuments - stationBDocumentsCollected) == 0 ? stationBAltSprite : stationBSprite;
         }
     }
 
@@ -74,6 +75,12 @@ public class DocumentHolder : MonoBehaviour
         StationBDocuments = 0;
         BossDocuments = 3;
         currectBossLowerTimer = bossLowerTimer;
+    }
+
+    public void UpdatePapersCollected()
+    {
+        StationADocuments = StationADocuments;
+        StationBDocuments = StationBDocuments;
     }
 
     void Update()
@@ -144,7 +151,7 @@ public class DocumentHolder : MonoBehaviour
         {
             if (doc.GetComponents<Collider2D>().Length == 1)
             {
-                RemoveUpper(() => StationADocuments++);
+                RemoveUpper(() => { StationADocuments++; sceneCombiner.documentsAToUpdate++; });
             }
             else
             {
@@ -173,7 +180,7 @@ public class DocumentHolder : MonoBehaviour
         {
             if (doc.GetComponents<Collider2D>().Length == 1)
             {
-                RemoveUpper(() => StationBDocuments++);
+                RemoveUpper(() => { StationBDocuments++; sceneCombiner.documentsBToUpdate++; });
             }
             else
             {
