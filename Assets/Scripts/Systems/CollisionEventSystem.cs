@@ -76,10 +76,10 @@ public class CollisionEventSystem : SystemBase
         {
             if((StarShip.HasComponent(collisionEvent.EntityA)|| StarShip.HasComponent(collisionEvent.EntityB)))
             {
-                if ((AsteroidsGroup.HasComponent(collisionEvent.EntityA) && AsteroidsGroup.HasComponent(collisionEvent.EntityB)))
+                if ((AsteroidsGroup.HasComponent(collisionEvent.EntityA) || AsteroidsGroup.HasComponent(collisionEvent.EntityB)))
                 {
                     var tmp = StarShip[SD];
-                    tmp.angrinessTmp += singleton.DeltaTime*50;
+                    tmp.angrinessTmp += 1.5f;
                     StarShip[SD] = tmp;
                 }
             }
