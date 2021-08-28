@@ -12,6 +12,7 @@ using Unity.Collections;
 public class StarShipSystem : SystemBase
 {
     BeginInitializationEntityCommandBufferSystem BIECommandBuffer;
+    Entity Lapki;
 
     protected override void OnCreate()
     {
@@ -32,6 +33,11 @@ public class StarShipSystem : SystemBase
             dynamicBuffer.Add(new PapersPRefabBufferData { Value = SSD.trash });
             dynamicBuffer.Add(new PapersPRefabBufferData { Value = SSD.boss });
         }).WithBurst().Run();
+
+        Entities.WithAll<LapkiTag>().ForEach((Entity e, in PhysicsVelocity PV)=> {
+            Lapki = e;
+        }).WithoutBurst().Run();
+
         singleton.closestStation = new float3(float.MaxValue, float.MaxValue, 0);
         SetSingleton(singleton);
 
@@ -40,14 +46,16 @@ public class StarShipSystem : SystemBase
 
     protected override void OnUpdate()
     {
+        var Lap = Lapki;
         var commandBuffer = BIECommandBuffer.CreateCommandBuffer();
         var singleton = GetSingleton<SingletonData>();
-
+        var Pv = GetComponentDataFromEntity<PhysicsVelocity>();
         Entities.WithAll<StationData>().ForEach((ref StationData SD, in Translation st) => {
             if (math.distance(singleton.PlayerPos, st.Value) < math.distance(singleton.PlayerPos, singleton.closestStation))
             {
                 singleton.closestStation = st.Value;
                 singleton.closestStationType = SD.ThisStationType;
+                singleton.clicked = false;
             }
             singleton.angriness += SD.angriness;
             SD.angriness = 0;
@@ -68,7 +76,7 @@ public class StarShipSystem : SystemBase
                 DynamicBuffer<PapersPRefabBufferData> dynamicBuffer = GetBuffer<PapersPRefabBufferData>(e);
                 if (rand.NextUInt(0, 10) < 5)
                 {
-                    uint i = rand.NextUInt(3, 10);
+                    uint i = rand.NextUInt(2, 5);
                     for (uint x = 0; x <= i; x++)
                     {
                         var BInstance = commandBuffer.Instantiate(dynamicBuffer[rand.NextInt(0, 4)].Value);
@@ -76,11 +84,11 @@ public class StarShipSystem : SystemBase
                         commandBuffer.SetComponent(BInstance, new Rotation { Value = rand.NextQuaternionRotation() });
                         commandBuffer.SetComponent(BInstance, new PhysicsVelocity
                         {
-                            Linear = rand.NextFloat3(new float3(0.01f, 0.05f, 0),
-                            new float3(0.05f, 0.01f, 0))
+                            Linear = rand.NextFloat3(new float3(0.25f, 0.1f, 0),
+                            new float3(1f, 1f, 0)) + vel.Linear
                         });
                     }
-                    i = rand.NextUInt(3, 10);
+                    i = rand.NextUInt(2, 5);
                     for (uint x = 0; x <= i; x++)
                     {
                         var BInstance = commandBuffer.Instantiate(dynamicBuffer[rand.NextInt(0, 4)].Value);
@@ -88,8 +96,8 @@ public class StarShipSystem : SystemBase
                         commandBuffer.SetComponent(BInstance, new Rotation { Value = rand.NextQuaternionRotation() });
                         commandBuffer.SetComponent(BInstance, new PhysicsVelocity
                         {
-                            Linear = rand.NextFloat3(new float3(-0.01f, 0.05f, 0),
-                            new float3(-0.05f, 0.01f, 0))
+                            Linear = rand.NextFloat3(new float3(-1f, 0.1f, 0),
+                            new float3(-0.25f, 1f, 0)) + vel.Linear
                         });
                     }
                 }
@@ -109,9 +117,9 @@ public class StarShipSystem : SystemBase
                 vel.Linear.x = 0;
             singleton.PlayerPos = t.Value;
 
-            if (!SSD.clicked && Input.GetKeyDown(KeyCode.E) && math.distance(singleton.PlayerPos, singleton.closestStation)<4)
+            if (!singleton.clicked && Input.GetKeyDown(KeyCode.E) && math.distance(singleton.PlayerPos, singleton.closestStation)<4)
             {
-                SSD.clicked = true;
+                singleton.clicked = true;
                 switch (singleton.closestStationType)
                 {
                     case StationTypes.FirstStation:
@@ -137,6 +145,7 @@ public class StarShipSystem : SystemBase
             }
             if (math.distance(singleton.PlayerPos, singleton.closestStation) >= 4)
                 singleton.closestStation = new float3(float.MaxValue, float.MaxValue, 0);
+            Pv[Lap] = vel;
         }).WithBurst().Run();
 
         SetSingleton(singleton);

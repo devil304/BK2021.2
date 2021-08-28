@@ -13,6 +13,9 @@ public struct SingletonData : IComponentData
     public float maxX, maxY;
     public int Station1Papers, Station2Papers, TrashPapers, BossPapers;
     public int angriness;
+    public float angrinessTmp;
+
+    public bool clicked;
 
     public float3 closestStation;
     public StationTypes closestStationType;

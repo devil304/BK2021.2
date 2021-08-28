@@ -11,6 +11,12 @@ using Random = Unity.Mathematics.Random;
 [UpdateAfter(typeof(StarShipSystem))]
 public class StationsSystem : SystemBase
 {
+    BeginInitializationEntityCommandBufferSystem BIECommandBuffer;
+
+    protected override void OnCreate()
+    {
+        BIECommandBuffer = World.GetOrCreateSystem<BeginInitializationEntityCommandBufferSystem>();
+    }
 
     protected override void OnStartRunning()
     {
@@ -25,6 +31,7 @@ public class StationsSystem : SystemBase
 
     protected override void OnUpdate()
     {
+        var commandBuffer = BIECommandBuffer.CreateCommandBuffer();
         var singleton = GetSingleton<SingletonData>();
         Dependency = Entities.ForEach((ref PhysicsVelocity PV, ref Translation t, ref StationData SD)=> {
             float dist = math.distance(t.Value, singleton.PlayerPos);
@@ -57,7 +64,17 @@ public class StationsSystem : SystemBase
         }).WithBurst().Schedule(Dependency);
         Dependency.Complete();
 
+        Entities.WithAll<PapersData>().ForEach((Entity e, in Translation t)=> {
+            if(math.distance(t.Value, singleton.PlayerPos) > 10)
+            {
+                singleton.angriness++;
+                commandBuffer.DestroyEntity(e);
+            }
+        }).WithBurst().Run();
+        Dependency.Complete();
+
         SetSingleton(singleton);
+        BIECommandBuffer.AddJobHandleForProducer(Dependency);
     }
 
     static void TeleportInFrontOfSS(float dist, SingletonData singleton,ref Translation t,ref Random r)

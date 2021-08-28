@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 382527204250982325}
   - component: {fileID: 382527204250982324}
   m_Layer: 0
-  m_Name: Paper
+  m_Name: Paper 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,4 +303,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3921d37441791634b804bf89c9e9fa73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThisPaperType: 0
+  ThisPaperType: 1
