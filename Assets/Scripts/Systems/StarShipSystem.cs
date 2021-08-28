@@ -66,6 +66,21 @@ public class StarShipSystem : SystemBase
         singleton.ElapsedTime = (float)Time.ElapsedTime;
         Random rand = new Random((uint)singleton.ElapsedTime+1);
         Entities.ForEach((Entity e, ref Rotation r, ref PhysicsVelocity vel, ref StarShipData SSD, in Translation t) => {
+
+            if (SSD.angrinessTmp > 1)
+            {
+                singleton.angriness += (int)SSD.angrinessTmp;
+                SSD.angrinessTmp %= 1f;
+            }
+            singleton.Station1Papers += SSD.Station1Papers;
+            singleton.Station2Papers += SSD.Station2Papers;
+            singleton.BossPapers += SSD.BossPapers;
+            singleton.TrashPapers += SSD.TrashPapers;
+            SSD.Station1Papers = 0;
+            SSD.Station2Papers = 0;
+            SSD.BossPapers = 0;
+            SSD.TrashPapers = 0;
+
             vel.Angular = float3.zero;
             r.Value = quaternion.identity;
 
@@ -123,16 +138,16 @@ public class StarShipSystem : SystemBase
                 switch (singleton.closestStationType)
                 {
                     case StationTypes.FirstStation:
-                        if (singleton.Station1Papers > 0)
-                            singleton.Station1Papers = 0;
+                        if (singleton.Station1PapersR > 0)
+                            singleton.Station1PapersR = 0;
                         else
                         {
                             singleton.angriness += 10;
                         }                            
                         break;
                     case StationTypes.SecondStation:
-                        if (singleton.Station2Papers > 0)
-                            singleton.Station2Papers = 0;
+                        if (singleton.Station2PapersR > 0)
+                            singleton.Station2PapersR = 0;
                         else
                         {
                             singleton.angriness += 10;
@@ -166,6 +181,10 @@ public class StarShipSystem : SystemBase
             ED.Papers2 = singleton.Station2Papers;
             ED.PapersT = singleton.TrashPapers;
             ED.PapersB = singleton.BossPapers;
+            singleton.Station1PapersR += ED.EMDE.SD.Station1PapersR;
+            ED.EMDE.SD.Station1PapersR = 0;
+            singleton.Station2PapersR += ED.EMDE.SD.Station2PapersR;
+            ED.EMDE.SD.Station2PapersR = 0;
         }).WithoutBurst().Run();
 
         SetSingleton(singleton);

@@ -18,11 +18,11 @@ public class CollisionEventSystem : SystemBase
 
     BeginInitializationEntityCommandBufferSystem BIECommandBuffer;
 
-    [BurstDiscard]
+    /*[BurstDiscard]
     public static void Log(string message)
     {
         Debug.Log(message); // actually have custom logging stuff here but simplified it
-    }
+    }*/
 
     protected override void OnCreate()
     {
@@ -31,12 +31,19 @@ public class CollisionEventSystem : SystemBase
         BIECommandBuffer = World.GetOrCreateSystem<BeginInitializationEntityCommandBufferSystem>();
         Sd = new SingletonData();
     }
-    public static SingletonData Sd;
+    Entity SS;
+    protected override void OnStartRunning()
+    {
+        Entities.WithAll<StarShipData>().ForEach((Entity e)=> {
+            SS = e;
+        }).WithoutBurst().Run();
+    }
+
+    public SingletonData Sd;
     protected override void OnUpdate()
     {
+        var ss = SS;
         var commandBuffer = BIECommandBuffer.CreateCommandBuffer();
-        var singleton = GetSingleton<SingletonData>();
-        Sd.DeltaTime = singleton.DeltaTime;
         Dependency = new EntityCollision
         {
             AsteroidsGroup = GetComponentDataFromEntity<AsteroidTag>(true),
@@ -44,28 +51,10 @@ public class CollisionEventSystem : SystemBase
             StarShip = GetComponentDataFromEntity<StarShipData>(),
             StationsGroup = GetComponentDataFromEntity<StationData>(),
             LapkiGroup = GetComponentDataFromEntity<LapkiTag>(),
-            ECB = commandBuffer
+            ECB = commandBuffer,
+            SD = ss
         }.Schedule(SPW.Simulation, ref BPW.PhysicsWorld, Dependency);
         Dependency.Complete();
-        if (Sd.angrinessTmp != 0 || Sd.Station1Papers != 0 || Sd.Station2Papers != 0 || Sd.BossPapers != 0 || Sd.TrashPapers != 0)
-        {
-            if (Sd.angrinessTmp > 1)
-            {
-                singleton.angriness += (int)Sd.angrinessTmp;
-                Sd.angrinessTmp %= 1f;
-            }
-            singleton.Station1Papers += Sd.Station1Papers;
-            singleton.Station2Papers += Sd.Station2Papers;
-            singleton.BossPapers += Sd.BossPapers;
-            singleton.TrashPapers += Sd.TrashPapers;
-            Log("Tak");
-            Sd.angriness = 0;
-            Sd.Station1Papers = 0;
-            Sd.Station2Papers = 0;
-            Sd.BossPapers = 0;
-            Sd.TrashPapers = 0;
-        }
-        SetSingleton(singleton);
         BIECommandBuffer.AddJobHandleForProducer(Dependency);
     }
 
@@ -77,7 +66,7 @@ public class CollisionEventSystem : SystemBase
         public ComponentDataFromEntity<StarShipData> StarShip;
         public ComponentDataFromEntity<StationData> StationsGroup;
         public ComponentDataFromEntity<LapkiTag> LapkiGroup;
-        public SingletonData SD;
+        public Entity SD;
         public EntityCommandBuffer ECB;
 
         public void Execute(CollisionEvent collisionEvent)
@@ -85,25 +74,30 @@ public class CollisionEventSystem : SystemBase
             if((StarShip.HasComponent(collisionEvent.EntityA)|| StarShip.HasComponent(collisionEvent.EntityB)))
             {
                 if ((!PapersGroup.HasComponent(collisionEvent.EntityA) && !PapersGroup.HasComponent(collisionEvent.EntityB)))
-                    Sd.angrinessTmp += Sd.DeltaTime*5;
+                {
+                    var tmp = StarShip[SD];
+                    tmp.angrinessTmp += 1;
+                    StarShip[SD] = tmp;
+                }
             }
             else if ((LapkiGroup.HasComponent(collisionEvent.EntityA) || LapkiGroup.HasComponent(collisionEvent.EntityB)))
             {
+                var tmp = StarShip[SD];
                 if (PapersGroup.HasComponent(collisionEvent.EntityA))
                 {
                     switch (PapersGroup[collisionEvent.EntityA].ThisPaperType)
                     {
                         case PaperTypes.FirstStation:
-                            Sd.Station1Papers += 1;
+                            tmp.Station1Papers += 1;
                             break;
                         case PaperTypes.SecondStation:
-                            Sd.Station2Papers += 1;
+                            tmp.Station2Papers += 1;
                             break;
                         case PaperTypes.Trash:
-                            Sd.TrashPapers += 1;
+                            tmp.TrashPapers += 1;
                             break;
                         case PaperTypes.Boss:
-                            Sd.BossPapers += 1;
+                            tmp.BossPapers += 1;
                             break;
                     }
                     ECB.DestroyEntity(collisionEvent.EntityA);
@@ -113,20 +107,21 @@ public class CollisionEventSystem : SystemBase
                     switch (PapersGroup[collisionEvent.EntityB].ThisPaperType)
                     {
                         case PaperTypes.FirstStation:
-                            Sd.Station1Papers += 1;
+                            tmp.Station1Papers += 1;
                             break;
                         case PaperTypes.SecondStation:
-                            Sd.Station2Papers += 1;
+                            tmp.Station2Papers += 1;
                             break;
                         case PaperTypes.Trash:
-                            Sd.TrashPapers += 1;
+                            tmp.TrashPapers += 1;
                             break;
                         case PaperTypes.Boss:
-                            Sd.BossPapers += 1;
+                            tmp.BossPapers += 1;
                             break;
                     }
                     ECB.DestroyEntity(collisionEvent.EntityB);
                 }
+                StarShip[SD] = tmp;
             }
         }
     }
