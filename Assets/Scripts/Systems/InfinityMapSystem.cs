@@ -26,7 +26,7 @@ public class InfinityMapSystem : SystemBase
             float3 offset = new float3(singleton.PlayerPos.x <-singleton.maxX ? singleton.PlayerPos.x+ singleton.maxX:(singleton.PlayerPos.x > singleton.maxX ? singleton.PlayerPos.x - singleton.maxX: 0),
                 singleton.PlayerPos.y < -singleton.maxY ? singleton.PlayerPos.y + singleton.maxY : (singleton.PlayerPos.y > singleton.maxY ? singleton.PlayerPos.y - singleton.maxY : 0), 0);
 
-            Entities.WithNone<StarShipData>().ForEach((ref Translation t) =>
+            Entities.WithNone<StarShipData, LapkiTag>().ForEach((ref Translation t) =>
             {
                 if (Vector2.Distance((Vector3)(PlayerPos * -1 + offset), (Vector3)t.Value) < 10)
                 {
@@ -46,7 +46,7 @@ public class InfinityMapSystem : SystemBase
                 }
             }).WithBurst().ScheduleParallel();
 
-            Entities.WithAny<StarShipData>().ForEach((ref Translation t) => {
+            Entities.WithAny<StarShipData, LapkiTag>().ForEach((ref Translation t) => {
                 if (Vector2.Distance((Vector3)PlayerPos, (Vector3)t.Value) < 10)
                 {
                     t.Value.x *= -1;
