@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 254397100}
-  numberOfAnims: 4
+  numberOfAnims: 5
 --- !u!1 &399748333
 GameObject:
   m_ObjectHideFlags: 0
