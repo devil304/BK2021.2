@@ -64,17 +64,12 @@ public class DocumentHolder : MonoBehaviour
     public Vector3 GetRandomDocumentPosition() =>
             transform.position + new Vector3(Random.Range(-maxSpread, maxSpread), Random.Range(-maxSpread, maxSpread), currentDocZPos);
 
-    IEnumerator Start()
+    void Awake()
     {
         StationADocuments = 0;
         StationBDocuments = 0;
         BossDocuments = 3;
         currectBossLowerTimer = bossLowerTimer;
-        while (true)
-        {
-            SpawnDocument(documentPrefabs[Random.Range(0, documentPrefabs.Count)]);
-            yield return new WaitForSeconds(4f);
-        }
     }
 
     void Update()
