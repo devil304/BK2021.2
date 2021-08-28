@@ -30,6 +30,7 @@ public class DocumentHolder : MonoBehaviour
     public TextMeshProUGUI stationBText;
     public SpriteRenderer stationBSpriteRend;
     public Sprite stationBSprite;
+    public Sprite stationBSpriteClosedEye;
     public Sprite stationBAltSprite;
     int stationBDocuments = 0;
     public int StationBDocuments
@@ -39,6 +40,8 @@ public class DocumentHolder : MonoBehaviour
         {
             stationBDocuments = value;
             stationBText.text = stationBDocuments.ToString();
+            if (stationBDocuments != 0) StartCoroutine(HandleEye());
+            else StopCoroutine(nameof(HandleEye));
             stationBSpriteRend.sprite = stationBDocuments == 0 ? stationBAltSprite : stationBSprite;
         }
     }
@@ -58,6 +61,7 @@ public class DocumentHolder : MonoBehaviour
             {
                 bossIndicator.GetChild(i).gameObject.SetActive(i <= bossDocuments);
             }
+            currectBossLowerTimer = bossLowerTimer;
         }
     }
 
@@ -86,6 +90,17 @@ public class DocumentHolder : MonoBehaviour
         if (bossDocuments == 1 || bossDocuments == 5)
         {
             Frustration.Value += 0.025f * Time.deltaTime;
+        }
+    }
+
+    IEnumerator HandleEye()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(4f, 7f));
+            stationBSpriteRend.sprite = stationBSpriteClosedEye;
+            yield return new WaitForSeconds(0.25f);
+            stationBSpriteRend.sprite = stationBSprite;
         }
     }
 

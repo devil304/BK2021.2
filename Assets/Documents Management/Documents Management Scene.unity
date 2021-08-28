@@ -1779,6 +1779,7 @@ MonoBehaviour:
   stationBText: {fileID: 540102606}
   stationBSpriteRend: {fileID: 1278094956}
   stationBSprite: {fileID: 21300000, guid: 43d7e2ac4df50f84093a54fbc1e20ee8, type: 3}
+  stationBSpriteClosedEye: {fileID: 21300000, guid: d86df79d690038e4a80d7fdd75ebd9e6, type: 3}
   stationBAltSprite: {fileID: 21300000, guid: 51b58ff7e37432944919e3ae472181b6, type: 3}
   bossLowerTimer: 13
   bossIndicator: {fileID: 1196797917}
@@ -2442,7 +2443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spaceScene: SampleScene
-  documents: {fileID: 0}
+  documents: {fileID: 1162828895}
   stationAPrefabs:
   - {fileID: 5822215972347578181, guid: 2a0ce9b80bf41d443ac915cf2d245ae2, type: 3}
   - {fileID: 5822215972347578181, guid: 51572bc4a07b64e4ca32edaeb7adff3c, type: 3}
