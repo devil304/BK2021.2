@@ -17,12 +17,12 @@ public class SceneCombiner : MonoBehaviour
 
     void Awake()
     {
-        SceneManager.LoadScene(spaceScene, LoadSceneMode.Additive);
+        if (spaceScene != "") SceneManager.LoadScene(spaceScene, LoadSceneMode.Additive);
     }
 
     void Start()
     {
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(spaceScene));
+        if (spaceScene != "") SceneManager.SetActiveScene(SceneManager.GetSceneByName(spaceScene));
     }
 
     void Update()
