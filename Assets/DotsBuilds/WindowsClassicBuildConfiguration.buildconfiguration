@@ -17,10 +17,6 @@
                     "AutoLoad": true
                 },
                 {
-                    "Scene": "GlobalObjectId_V1-1-4f9d0dfd19f61a846a11be4fbdcee424-102900000-0",
-                    "AutoLoad": false
-                },
-                {
                     "Scene": "GlobalObjectId_V1-1-9fc0d4010bbf28b4594072e72b8655ab-102900000-0",
                     "AutoLoad": false
                 }

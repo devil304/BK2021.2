@@ -18096,7 +18096,7 @@ MonoBehaviour:
   m_ShapeType: 0
   m_PrimitiveCenter:
     x: 0
-    y: 2
+    y: 0.12
     z: 0
   m_PrimitiveSize:
     x: 1
@@ -18397,11 +18397,11 @@ MonoBehaviour:
   timer: 0
   pointOne:
     x: 1.1
-    y: 4.5
+    y: 3.5
     z: 0
   pointTwo:
     x: -1.1
-    y: 4.5
+    y: 3.5
     z: 0
   paper1: {fileID: 382527204250982323, guid: 92ca4f33c2de941479999e9d79f74a23, type: 3}
   paper2: {fileID: 382527204250982323, guid: b4c886c7243bcf44c964391aec8d07ec, type: 3}
@@ -18459,7 +18459,7 @@ MonoBehaviour:
   m_ShapeType: 2
   m_PrimitiveCenter:
     x: 0
-    y: 4.69
+    y: 2.8
     z: 0
   m_PrimitiveSize:
     x: 0.5
@@ -37887,7 +37887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec93678857a98d44c8ac35c775a2f86b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -5, z: 0}
+  offset: {x: 0, y: -1, z: 0}
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -57246,7 +57246,7 @@ MonoBehaviour:
   m_ShapeType: 0
   m_PrimitiveCenter:
     x: 0
-    y: 1.06
+    y: -0.82
     z: 0
   m_PrimitiveSize:
     x: 2.76
