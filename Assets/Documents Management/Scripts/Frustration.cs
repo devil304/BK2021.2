@@ -43,9 +43,13 @@ public class Frustration : MonoBehaviour
     {
         endGroup.DOFade(1f, 0.5f);
         yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("Menu");
+    }
+
+    void OnDestroy()
+    {
         var entityManager = Unity.Entities.World.All[0].EntityManager;
         foreach (var e in entityManager.GetAllEntities())
             entityManager.DestroyEntity(e);
-        SceneManager.LoadScene("Menu");
     }
 }
